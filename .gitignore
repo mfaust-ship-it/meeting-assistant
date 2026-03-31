@@ -1,0 +1,30 @@
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+/tmp/
+
+# Legacy scripts
+live_transcribe_v3.py
+
+# Transcript outputs (regenerable)
+outputs/
