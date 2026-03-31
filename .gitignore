@@ -23,8 +23,5 @@ Thumbs.db
 *.tmp
 /tmp/
 
-# Legacy scripts
-live_transcribe_v3.py
-
 # Transcript outputs (regenerable)
 outputs/

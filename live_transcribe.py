@@ -1,28 +1,20 @@
-#!/usr/bin/env -S uv run --script
-# /// script
-# requires-python = ">=3.11"
-# dependencies = [
-#     "faster-whisper",
-#     "pyannote.audio",
-#     "soundfile",
-#     "numpy",
-#     "torch",
-#     "silero-vad",
-#     "scikit-learn",
-# ]
-# ///
+#!/usr/bin/env -S uv run
 """
-Live Meeting Transcription Demo (v4)
+Live Meeting Transcription
 
-Changes from v3:
-- Min silence threshold increased to 1.5s to avoid mid-sentence splits
-- Consistent speaker labels across chunks using speaker embeddings
-  (stores voice fingerprints from first chunk, matches in subsequent chunks)
+Real-time meeting transcription with speaker diarization.
+Captures audio from microphone and/or system speakers (via PipeWire monitor),
+transcribes with faster-whisper, and labels speakers using pyannote.
+
+Features:
+- VAD-based chunking (splits on natural silence gaps)
+- Consistent speaker labels across chunks using voice embeddings
+- Audio normalization for low-amplitude PipeWire monitor sources
 
 Usage:
-    ./live_transcribe_v4.py --speakers-only
-    ./live_transcribe_v4.py --speakers
-    ./live_transcribe_v4.py
+    ./live_transcribe.py --speakers-only
+    ./live_transcribe.py --speakers
+    ./live_transcribe.py
 
 Press Ctrl+C to stop.
 """
