@@ -1,0 +1,25 @@
+# Meeting Assistant — Tuning Configuration
+#
+# These values were tuned through iterative testing against real Teams
+# meeting recordings. See test/analysis_*.md for details.
+
+[audio]
+sample_rate = 16000          # Hz — standard for speech recognition
+channels = 1                 # mono
+record_chunk_ms = 500        # read audio in this many ms increments for VAD
+
+[normalization]
+target_peak = 0.8            # normalize audio to this peak amplitude
+max_gain = 50.0              # cap gain to avoid amplifying noise (~34dB max boost)
+
+[whisper]
+beam_size = 5                # beam search width for decoding
+no_speech_threshold = 0.5    # suppress segments where no-speech probability exceeds this
+
+[vad]
+speech_threshold = 0.3       # Silero VAD confidence above this = speech (default was 0.5, lowered for sensitivity)
+rms_silence_threshold = 0.0005  # minimum RMS energy to process a chunk
+
+[speaker_tracking]
+similarity_threshold = 0.65  # cosine similarity for matching a speaker across chunks
+embedding_update_weight = 0.3  # weight for new embedding in running average (0.3 new + 0.7 existing)

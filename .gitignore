@@ -25,3 +25,6 @@ Thumbs.db
 
 # Transcript outputs (regenerable)
 outputs/
+
+# Claude Code instructions (local only)
+CLAUDE.md

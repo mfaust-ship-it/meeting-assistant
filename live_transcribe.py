@@ -26,6 +26,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import tomllib
 import wave
 from datetime import datetime
 from pathlib import Path
@@ -38,16 +39,46 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore", message=".*torchcodec.*")
 
-SAMPLE_RATE = 16000
-CHANNELS = 1
-RECORD_CHUNK_MS = 500  # read audio in 500ms increments
+
+def load_config():
+    """Load tuning parameters from config.toml."""
+    config_path = Path(__file__).parent / "config.toml"
+    if not config_path.exists():
+        print(f"WARNING: {config_path} not found, using defaults")
+        return {}
+    with open(config_path, "rb") as f:
+        return tomllib.load(f)
+
+
+CONFIG = load_config()
+
+# Audio
+SAMPLE_RATE = CONFIG.get("audio", {}).get("sample_rate", 16000)
+CHANNELS = CONFIG.get("audio", {}).get("channels", 1)
+RECORD_CHUNK_MS = CONFIG.get("audio", {}).get("record_chunk_ms", 500)
+
+# Normalization
+NORMALIZE_TARGET_PEAK = CONFIG.get("normalization", {}).get("target_peak", 0.8)
+NORMALIZE_MAX_GAIN = CONFIG.get("normalization", {}).get("max_gain", 50.0)
+
+# Whisper
+WHISPER_BEAM_SIZE = CONFIG.get("whisper", {}).get("beam_size", 5)
+WHISPER_NO_SPEECH_THRESHOLD = CONFIG.get("whisper", {}).get("no_speech_threshold", 0.5)
+
+# VAD
+VAD_SPEECH_THRESHOLD = CONFIG.get("vad", {}).get("speech_threshold", 0.3)
+VAD_RMS_SILENCE_THRESHOLD = CONFIG.get("vad", {}).get("rms_silence_threshold", 0.0005)
+
+# Speaker tracking
+SPEAKER_SIMILARITY_THRESHOLD = CONFIG.get("speaker_tracking", {}).get("similarity_threshold", 0.65)
+SPEAKER_EMBEDDING_UPDATE_WEIGHT = CONFIG.get("speaker_tracking", {}).get("embedding_update_weight", 0.3)
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Live meeting transcription v4")
     parser.add_argument("--speakers", action="store_true")
     parser.add_argument("--speakers-only", action="store_true")
-    parser.add_argument("--output", default="transcript_v4.md")
+    parser.add_argument("--output", default="transcript.md")
     parser.add_argument("--model", default="small")
     parser.add_argument("--max-chunk", type=float, default=30.0,
                         help="Max chunk duration in seconds (default: 30)")
@@ -71,11 +102,11 @@ def find_monitor_source():
     return "alsa_output.pci-0000_c1_00.6.analog-stereo.monitor"
 
 
-def normalize_audio(audio_data, target_peak=0.8):
+def normalize_audio(audio_data):
     peak = np.max(np.abs(audio_data))
     if peak < 1e-6:
         return audio_data
-    gain = min(target_peak / peak, 50.0)
+    gain = min(NORMALIZE_TARGET_PEAK / peak, NORMALIZE_MAX_GAIN)
     return (audio_data * gain).astype(np.float32)
 
 
@@ -131,8 +162,8 @@ def transcribe_chunk(whisper_model, audio_data):
 
         segments, info = whisper_model.transcribe(
             tmp.name,
-            beam_size=5,
-            no_speech_threshold=0.5,
+            beam_size=WHISPER_BEAM_SIZE,
+            no_speech_threshold=WHISPER_NO_SPEECH_THRESHOLD,
         )
         return [(s.start, s.end, s.text.strip()) for s in segments if s.text.strip()]
     finally:
@@ -145,7 +176,7 @@ class SpeakerTracker:
     def __init__(self):
         self.known_speakers = {}  # global_label -> embedding
         self.next_id = 0
-        self.similarity_threshold = 0.65  # cosine similarity threshold for same speaker
+        self.similarity_threshold = SPEAKER_SIMILARITY_THRESHOLD
 
     def _cosine_similarity(self, a, b):
         dot = np.dot(a, b)
@@ -192,7 +223,8 @@ class SpeakerTracker:
                 local_to_global[local_label] = best_match
                 # Update embedding with running average
                 self.known_speakers[best_match] = (
-                    0.7 * self.known_speakers[best_match] + 0.3 * embedding
+                    (1 - SPEAKER_EMBEDDING_UPDATE_WEIGHT) * self.known_speakers[best_match]
+                    + SPEAKER_EMBEDDING_UPDATE_WEIGHT * embedding
                 )
             else:
                 # New speaker
@@ -361,7 +393,7 @@ def main():
 
             audio_buffer = np.concatenate([audio_buffer, window])
 
-            if speech_prob > 0.3:
+            if speech_prob > VAD_SPEECH_THRESHOLD:
                 is_speaking = True
                 silence_counter = 0
             else:
@@ -385,7 +417,7 @@ def main():
 
                 print(f"  Chunk {chunk_count}: {chunk_duration:.1f}s, peak: {max_amp:.4f}, RMS: {rms:.5f}, trigger: {reason}")
 
-                if rms > 0.0005:
+                if rms > VAD_RMS_SILENCE_THRESHOLD:
                     normalized = normalize_audio(audio_buffer)
 
                     transcript_segs = transcribe_chunk(whisper_model, normalized)
