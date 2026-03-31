@@ -1,134 +1,96 @@
-# Whisper Test — Meeting Assistant Transcription Experiments
+# Meeting Assistant
 
-## Tests
+Real-time meeting transcription with speaker diarization. Captures audio from your machine (microphone and/or system speakers via PipeWire), transcribes speech using faster-whisper, and labels speakers using pyannote.
 
-### Test 1: Transcription Benchmark (CPU, no diarization)
+Runs entirely on CPU — no GPU required.
 
-**Script:** `benchmark.py`
-**Purpose:** Measure faster-whisper transcription speed on CPU across model sizes (tiny, base, small).
-**How:** Records 10s from mic via `arecord`, transcribes with each model, reports time ratio.
-**Output:** Console only (no output file).
-**Result:** All models faster than real-time. `small` model: 2.22s for 10s audio (0.22x ratio). Selected `small` as the default — no reason to sacrifice quality.
+## Features
 
-### Test 2: Diarization Benchmark (CPU, pyannote)
+- **Real-time transcription** — processes audio ~4x faster than real-time on a modern CPU
+- **Speaker diarization** — identifies and labels different speakers
+- **Cross-chunk speaker tracking** — maintains consistent speaker labels using voice embeddings
+- **VAD-based chunking** — splits on natural silence gaps instead of fixed time windows
+- **Audio normalization** — handles low-amplitude PipeWire monitor sources
+- **Zero hallucinations** — Silero VAD filters non-speech before transcription
 
-**Script:** `benchmark_diarization.py`
-**Purpose:** Measure pyannote speaker-diarization-3.1 speed on CPU.
-**How:** Uses `test.wav` from Test 1. Runs pyannote pipeline, reports time and speaker segments.
-**Output:** Console only.
-**Requires:** `HF_TOKEN` env var.
-**Result:** 0.39s for 10s audio (0.04x ratio). Detected 1 speaker correctly (single-speaker recording). Combined pipeline estimate: ~0.26x (well under real-time).
+## Requirements
 
-### Test 3: Debug Pipeline Steps
+- Linux with PipeWire (for `pw-record`)
+- [uv](https://github.com/astral-sh/uv) package manager
+- A [HuggingFace token](https://huggingface.co/settings/tokens) (for pyannote model access)
 
-**Script:** `debug_live.py`
-**Purpose:** Debug each step of the live pipeline in isolation (model loading, pw-record, transcription, diarization).
-**How:** Runs each step sequentially with timing and prints results.
-**Output:** Console only.
-**Requires:** `HF_TOKEN` env var.
-**Result:** All steps work. Model loading: ~22s total (8.7s whisper + 13.8s pyannote). pw-record captures from speaker monitor at low amplitude (~0.0026).
+## Setup
 
-### Test 4: Live Transcription — YouTube Video
+```bash
+# Clone the repo
+git clone git@github.com:mfaust-ship-it/meeting-assistant.git
+cd meeting-assistant
 
-**Script:** `live_transcribe.py --speakers`
-**Purpose:** First end-to-end live test. Capture mic + system audio, transcribe + diarize in real-time.
-**How:** Played a YouTube video with multiple speakers while running the script.
-**Output:** `transcript.md`
-**Requires:** `HF_TOKEN` env var. Audio playing through speakers.
-**Result:** Partially successful. Captured some speech correctly, identified different speakers (SPEAKER_00 vs UNKNOWN). Issues: whisper hallucinations on quiet chunks ("You", "Thank you"), low audio amplitude from PipeWire monitor.
+# Install dependencies
+uv sync
 
-### Test 5: Live Transcription — Teams Recording
-
-**Script:** `live_transcribe.py --speakers-only`
-**Purpose:** More realistic test using a real Teams meeting recording played through speakers. Compared output against official Teams transcript.
-**How:** Played a Teams recording through speakers. Used `--speakers-only` (no mic).
-**Output:** `transcript_teams.md`
-**Requires:** `HF_TOKEN` env var. Teams recording playing through speakers.
-**Reference transcript (official Teams):**
+# Add your HuggingFace token
+echo "HF_TOKEN=hf_your_token_here" > .env
 ```
-Linus: Maybe the nice thing about the signals that I added is that it's basically a signal factory where you can enter like all kinds of attributes and then it will produce a signal for that attribute.
-Linus: Yeah, but it needs a mapping of customers attribute to a internal representation...
-Linus: ...on Google, which apparently we don't right now...
-Linus: OK, maybe we do a quick quiz. Who listened? Marius listened. That's nice.
+
+## Usage
+
+```bash
+# Transcribe system audio (e.g. Teams/Zoom playing through speakers)
+./live_transcribe.py --speakers-only
+
+# Transcribe from microphone
+./live_transcribe.py
+
+# Transcribe both mic and system audio
+./live_transcribe.py --speakers
+
+# Custom output file
+./live_transcribe.py --speakers-only --output outputs/my_meeting.md
 ```
-**Result:** Content capture was decent for clear audio portions — got most of the substance correct. Diarization correctly identified single speaker. Main issues:
-- Whisper hallucinations on quiet/silent chunks ("You" repeated, "Thank you" repeated)
-- Low amplitude from PipeWire speaker monitor (~0.002-0.008)
-- 5-second chunk boundary cuts sentences awkwardly
-- Some words lost or misheard ("quick quiz" → "quick question", missed "signal factory")
 
-### Test 6: Live Transcription v2 — Teams Recording (improved)
+Press `Ctrl+C` to stop. The transcript is written to a markdown file as the meeting progresses.
 
-**Script:** `live_transcribe_v2.py --speakers-only`
-**Purpose:** Re-test Teams recording with three fixes: audio normalization, Silero VAD filter, 10s chunks.
-**Changes from v1:**
-- Audio normalization (boost low PipeWire monitor levels to 0.8 peak, max 50x gain)
-- Whisper VAD filter enabled (Silero-based, filters non-speech before transcription)
-- RMS-based silence detection instead of peak amplitude
-- Chunk size increased from 5s to 10s for better whisper context
-**Output:** `transcript_v2.md`
-**Requires:** `HF_TOKEN` env var. Teams recording playing through speakers.
-**Result (after tuning — run v2c):**
-- VAD threshold lowered to 0.3 (from default 0.5), speech_pad raised to 400ms
-- RMS silence threshold lowered to 0.0005 (let VAD handle speech detection)
-- no_speech_threshold set to 0.5
+### Options
 
-**Output:** `transcript_v2c.md` (best result)
-Also: `transcript_v2.md` (VAD too aggressive, no output), `transcript_v2b.md` (RMS threshold too high, most chunks skipped)
+| Flag | Description | Default |
+|------|------------|---------|
+| `--speakers-only` | Capture system audio only (no mic) | off |
+| `--speakers` | Capture both mic and system audio | off |
+| `--output` | Output file path | `transcript_v4.md` |
+| `--model` | Whisper model size | `small` |
+| `--max-chunk` | Max chunk duration (seconds) | `30` |
+| `--min-silence` | Silence duration to trigger chunk split (seconds) | `1.5` |
 
-**v2c Results — major improvement over v1:**
-- Zero hallucinations (no "You"/"Thank you" spam)
-- Continuous speech coverage across chunks
-- Two speakers detected (SPEAKER_00 and SPEAKER_01)
-- Coherent content: "tokenized include check", "Jaccard distance", "signal that takes the customer's data"
-- Remaining issues: some words garbled ("Jakab" for "Jaccard"), chunk boundary cuts, most speech attributed to single speaker
+## Stack
 
-### Test 7: Live Transcription v2 — Unseen Portion of Teams Recording
+| Component | Purpose |
+|-----------|---------|
+| [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Speech-to-text (CTranslate2, int8 quantization) |
+| [pyannote-audio](https://github.com/pyannote/pyannote-audio) | Speaker diarization (speaker-diarization-3.1) |
+| [Silero VAD](https://github.com/snakers4/silero-vad) | Voice activity detection for chunking |
+| PipeWire (`pw-record`) | Audio capture from mic and system speakers |
 
-**Script:** `live_transcribe_v2.py --speakers-only`
-**Purpose:** Validate v2 on a longer, unseen portion of the same Teams recording. Compare against official Teams transcript (4 speakers: Linus, Sarosh, Srihari, Marius).
-**Output:** `transcript_v2d.md`
-**Result:**
-- Core content well captured — substance of technical discussion comes through clearly
-- Domain-specific terms garbled: JSPB→"GSB view", GTIN→missed, HTTP→"SOTT", ASIN→missed
-- Speaker transitions poorly detected — 4 real speakers but only 2 detected (SPEAKER_00/SPEAKER_01)
-- Short interjections ("Oh", "Mm", "Yeah") mostly lost (acceptable for meeting notes)
-- Some phrases nearly verbatim: "enrich the database with this information, synchronously, asynchronously", "manufacturer product name can also be a very strong indicator", "specialized quantity checker"
-- Zero hallucinations maintained
+## Project Structure
 
-**Conclusion:** v2 is good enough for capturing the gist of a meeting. Main weaknesses are domain jargon and multi-speaker diarization on mixed audio.
+```
+meeting-assistant/
+├── live_transcribe.py          # Main transcription script
+├── pyproject.toml              # Dependencies (pinned, CPU-only torch)
+├── benchmarks/                 # Performance benchmarks
+│   ├── benchmark.py            # Transcription speed (faster-whisper)
+│   ├── benchmark_diarization.py # Diarization speed (pyannote)
+│   └── debug_live.py           # Pipeline step-by-step debugger
+├── test/                       # Test data and analysis
+│   ├── ground_truth_teams.md   # Reference transcript from Teams
+│   ├── test.wav                # Test audio (not committed)
+│   └── analysis_*.md           # Accuracy analyses per commit
+└── outputs/                    # Transcript outputs (not committed)
+```
 
-### Test 8: Live Transcription v3 — VAD-Based Chunking
+## Known Limitations
 
-**Script:** `live_transcribe_v3.py --speakers-only`
-**Purpose:** Replace fixed time windows with voice-activity-based chunking. Split on natural silence gaps instead of arbitrary 10s boundaries.
-**Changes from v2:**
-- Continuous recording (single pw-record process) instead of start/stop per chunk
-- Silero VAD runs on 500ms windows to detect speech vs silence
-- Chunks split when silence > 800ms after speech detected
-- Max chunk size 30s as safety limit
-- No more sentence-cutting at arbitrary boundaries
-**Output:** `transcript_v3.md`
-**Requires:** `HF_TOKEN` env var. Audio playing through speakers.
-**Result:**
-- VAD-based chunking works well — variable chunk sizes from 1.5s to 30s matching natural speech
-- Long monologues captured as coherent paragraphs (chunk 26: 30s single paragraph, no cuts)
-- Better dialogue flow — speaker changes detected within natural conversation chunks
-- SPEAKER_01 appears more frequently than v2
-- Zero hallucinations maintained
-- Some over-splitting on short pauses (0.8s threshold triggers on mid-sentence pauses)
-- Potential improvement: increase min_silence to 1.5-2s to avoid fragmenting sentences
-- Some misheard words remain (domain terms, low amplitude audio)
-
-## Known Issues (remaining after v2)
-
-1. **Domain-specific terms garbled** — JSPB, GTIN, ASIN not recognized. Whisper has a `hotwords` parameter that could help.
-2. **Multi-speaker diarization weak on mixed audio** — 4 real speakers but only 2 detected. PipeWire monitor provides a single mixed stream; per-participant audio would improve this.
-3. **Chunk boundary sentence cuts** — 10s is better than 5s but still cuts mid-sentence. Could use voice activity to find natural breaks.
-4. **torchcodec warning spam** — harmless but noisy; pyannote needs audio passed as waveform dict instead of file path.
-
-## Resolved Issues (fixed in v2)
-
-1. ~~Low audio amplitude from PipeWire monitor~~ — fixed with audio normalization
-2. ~~Whisper hallucinations on silence~~ — fixed with Silero VAD filter + no_speech_threshold
-3. ~~5-second chunking too short~~ — increased to 10s
+- **Domain-specific terms** — names and jargon get misheard (e.g. "Marius" → "Mario's", "Jaccard" → "Jakar"). Whisper's `hotwords` parameter could help.
+- **Speaker diarization on mixed audio** — works best when speakers take turns. Rapid back-and-forth or overlapping speech may get misattributed. Per-participant audio would improve this but isn't available with PipeWire capture.
+- **Short utterances** — brief interjections ("Mhm", "Yeah") are often dropped. Acceptable for meeting notes.
+- **Speaker label instability at start** — the first few short utterances may get different labels until the speaker tracker has enough audio to build stable embeddings.
