@@ -8,17 +8,18 @@ dependencies = [
     "pyannote.audio==4.0.4",
     "soundfile==0.13.1",
     "numpy==2.4.3",
-    "torch==2.10.0+cpu",
-    "torchaudio==2.10.0+cpu",
+    "torch==2.10.0+cu128",
+    "torchaudio==2.10.0+cu128",
     "silero-vad==6.2.1",
     "scikit-learn==1.8.0",
+    "sounddevice>=0.5.0",
 ]
 
 [tool.uv.sources]
-torch = [{ index = "pytorch-cpu" }]
-torchaudio = [{ index = "pytorch-cpu" }]
+torch = [{ index = "pytorch-cu128" }]
+torchaudio = [{ index = "pytorch-cu128" }]
 
 [[tool.uv.index]]
-name = "pytorch-cpu"
-url = "https://download.pytorch.org/whl/cpu"
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
 explicit = true

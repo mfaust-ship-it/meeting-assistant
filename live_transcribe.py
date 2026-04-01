@@ -3,8 +3,9 @@
 Live Meeting Transcription
 
 Real-time meeting transcription with speaker diarization.
-Captures audio from microphone and/or system speakers (via PipeWire monitor),
-transcribes with faster-whisper, and labels speakers using pyannote.
+Captures audio from microphone and/or system speakers via sounddevice
+(cross-platform). Transcribes with faster-whisper and labels speakers
+using pyannote.
 
 Features:
 - VAD-based chunking (splits on natural silence gaps)
@@ -22,10 +23,8 @@ Press Ctrl+C to stop.
 import argparse
 import os
 import signal
-import subprocess
 import sys
 import tempfile
-import time
 import tomllib
 import wave
 from datetime import datetime
@@ -38,6 +37,8 @@ import numpy as np
 
 import warnings
 warnings.filterwarnings("ignore", message=".*torchcodec.*")
+
+from audio import AudioStream
 
 
 def load_config():
@@ -75,7 +76,7 @@ SPEAKER_EMBEDDING_UPDATE_WEIGHT = CONFIG.get("speaker_tracking", {}).get("embedd
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Live meeting transcription v4")
+    parser = argparse.ArgumentParser(description="Live meeting transcription")
     parser.add_argument("--speakers", action="store_true")
     parser.add_argument("--speakers-only", action="store_true")
     parser.add_argument("--output", default="transcript.md")
@@ -86,20 +87,6 @@ def parse_args():
                         help="Min silence duration to split on, in seconds (default: 1.5)")
     return parser.parse_args()
 
-
-def find_monitor_source():
-    try:
-        result = subprocess.run(
-            ["pw-cli", "list-objects", "Node"],
-            capture_output=True, text=True
-        )
-        for line in result.stdout.split("\n"):
-            if "alsa_output" in line and "analog-stereo" in line:
-                node_name = line.split('"')[1]
-                return f"{node_name}.monitor"
-    except Exception:
-        pass
-    return "alsa_output.pci-0000_c1_00.6.analog-stereo.monitor"
 
 
 def normalize_audio(audio_data):
@@ -294,18 +281,16 @@ def main():
     whisper_model, diarize_pipeline, vad_model = load_models(args.model, hf_token)
     speaker_tracker = SpeakerTracker()
 
-    # Determine source
-    if args.speakers_only:
-        source = find_monitor_source()
-        is_monitor = True
-        source_name = "speakers"
-    elif args.speakers:
-        source = find_monitor_source()
-        is_monitor = True
+    # Open audio stream
+    if args.speakers_only or args.speakers:
+        audio_stream = AudioStream.open_loopback(
+            sample_rate=SAMPLE_RATE, channels=CHANNELS, chunk_ms=RECORD_CHUNK_MS
+        )
         source_name = "speakers"
     else:
-        source = "alsa_input.pci-0000_c1_00.6.analog-stereo"
-        is_monitor = False
+        audio_stream = AudioStream.open_microphone(
+            sample_rate=SAMPLE_RATE, channels=CHANNELS, chunk_ms=RECORD_CHUNK_MS
+        )
         source_name = "mic"
 
     print(f"\nAudio source: {source_name}")
@@ -315,24 +300,7 @@ def main():
     print(f"Audio normalization: enabled")
     print(f"Speaker tracking: enabled (cross-chunk embedding matching)")
 
-    # Start continuous recording
-    work_dir = tempfile.mkdtemp(prefix="live_v4_")
-    raw_path = os.path.join(work_dir, "continuous.wav")
-
-    cmd = [
-        "pw-record",
-        "--rate", str(SAMPLE_RATE),
-        "--channels", str(CHANNELS),
-        "--format", "s16",
-    ]
-    if is_monitor:
-        cmd += ["--target", source]
-    else:
-        cmd += ["--target", source]
-    cmd.append(raw_path)
-
-    rec_proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    time.sleep(0.5)
+    audio_stream.start()
 
     # Write header
     start_time = datetime.now()
@@ -354,36 +322,12 @@ def main():
     silence_counter = 0
     is_speaking = False
     total_time_offset = 0.0
-    last_read_pos = 0
     chunk_count = 0
-    header_read = False
 
     while running:
-        time.sleep(RECORD_CHUNK_MS / 1000)
-
-        try:
-            with open(raw_path, "rb") as f:
-                if not header_read:
-                    f.seek(0, 2)
-                    file_size = f.tell()
-                    if file_size < 100:
-                        continue
-                    header_read = True
-                    last_read_pos = 44
-
-                f.seek(0, 2)
-                file_size = f.tell()
-                available = file_size - last_read_pos
-                if available < chunk_read_samples * 2:
-                    continue
-
-                f.seek(last_read_pos)
-                raw_bytes = f.read(available)
-                last_read_pos = f.tell()
-        except Exception:
+        new_samples = audio_stream.read(timeout=1.0)
+        if new_samples is None:
             continue
-
-        new_samples = np.frombuffer(raw_bytes, dtype=np.int16).astype(np.float32) / 32768.0
 
         window_size = chunk_read_samples
         i = 0
@@ -454,7 +398,7 @@ def main():
         chunk_duration = len(audio_buffer) / SAMPLE_RATE
         rms = float(np.sqrt(np.mean(audio_buffer ** 2)))
         print(f"  Final chunk {chunk_count}: {chunk_duration:.1f}s, RMS: {rms:.5f}")
-        if rms > 0.0005:
+        if rms > VAD_RMS_SILENCE_THRESHOLD:
             normalized = normalize_audio(audio_buffer)
             transcript_segs = transcribe_chunk(whisper_model, normalized)
             if transcript_segs:
@@ -470,8 +414,7 @@ def main():
                         print(f"[{ts}] {speaker}: {text}")
 
     # Stop recording
-    rec_proc.send_signal(signal.SIGINT)
-    rec_proc.wait(timeout=5)
+    audio_stream.stop()
 
     # Footer
     end_time = datetime.now()
@@ -481,12 +424,6 @@ def main():
         f.write(f"**Duration:** {str(duration).split('.')[0]}\n")
         f.write(f"**Chunks processed:** {chunk_count}\n")
         f.write(f"**Speakers detected:** {list(speaker_tracker.known_speakers.keys())}\n")
-
-    try:
-        os.unlink(raw_path)
-        os.rmdir(work_dir)
-    except OSError:
-        pass
 
     print(f"\nTranscript saved to: {output_path}")
     print(f"Speakers detected: {list(speaker_tracker.known_speakers.keys())}")

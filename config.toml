@@ -21,5 +21,5 @@ speech_threshold = 0.3       # Silero VAD confidence above this = speech (defaul
 rms_silence_threshold = 0.0005  # minimum RMS energy to process a chunk
 
 [speaker_tracking]
-similarity_threshold = 0.65  # cosine similarity for matching a speaker across chunks
+similarity_threshold = 0.5   # cosine similarity for matching a speaker across chunks (lowered from 0.65 to reduce fragmentation on short chunks)
 embedding_update_weight = 0.3  # weight for new embedding in running average (0.3 new + 0.7 existing)

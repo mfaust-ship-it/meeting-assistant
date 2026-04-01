@@ -1,9 +1,11 @@
-# Audio files
+# Audio/video files
 *.wav
 *.mp3
 *.flac
 *.ogg
 *.m4a
+*.mp4
+*.webm
 
 # Python
 __pycache__/
