@@ -15,7 +15,7 @@ Runs entirely on CPU — no GPU required.
 
 ## Requirements
 
-- Linux with PipeWire (for `pw-record`)
+- Linux with PipeWire (for `pw-record`), macOS with BlackHole, or Windows with WASAPI
 - [uv](https://github.com/astral-sh/uv) package manager
 - A [HuggingFace token](https://huggingface.co/settings/tokens) (for pyannote model access)
 
@@ -57,7 +57,7 @@ Press `Ctrl+C` to stop. The transcript is written to a markdown file as the meet
 |------|------------|---------|
 | `--speakers-only` | Capture system audio only (no mic) | off |
 | `--speakers` | Capture both mic and system audio | off |
-| `--output` | Output file path | `transcript_v4.md` |
+| `--output` | Output file path | `transcript.md` |
 | `--model` | Whisper model size | `small` |
 | `--max-chunk` | Max chunk duration (seconds) | `30` |
 | `--min-silence` | Silence duration to trigger chunk split (seconds) | `1.5` |
@@ -69,21 +69,24 @@ Press `Ctrl+C` to stop. The transcript is written to a markdown file as the meet
 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Speech-to-text (CTranslate2, int8 quantization) |
 | [pyannote-audio](https://github.com/pyannote/pyannote-audio) | Speaker diarization (speaker-diarization-3.1) |
 | [Silero VAD](https://github.com/snakers4/silero-vad) | Voice activity detection for chunking |
-| PipeWire (`pw-record`) | Audio capture from mic and system speakers |
+| [sounddevice](https://python-sounddevice.readthedocs.io/) | Cross-platform audio capture (mic, loopback) |
+| PipeWire (`pw-record`) | Linux loopback audio capture |
 
 ## Project Structure
 
 ```
 meeting-assistant/
 ├── live_transcribe.py          # Main transcription script
-├── pyproject.toml              # Dependencies (pinned, CPU-only torch)
+├── audio.py                    # Cross-platform audio capture module
+├── config.toml                 # Tuning parameters (VAD, whisper, speaker tracking)
+├── pyproject.toml              # Dependencies (pinned versions)
 ├── benchmarks/                 # Performance benchmarks
 │   ├── benchmark.py            # Transcription speed (faster-whisper)
 │   ├── benchmark_diarization.py # Diarization speed (pyannote)
 │   └── debug_live.py           # Pipeline step-by-step debugger
-├── test/                       # Test data and analysis
-│   ├── ground_truth_teams.md   # Reference transcript from Teams
-│   ├── test.wav                # Test audio (not committed)
+├── test/                       # Test harness and analysis
+│   ├── run_test_linux.sh        # Plays WAV + runs transcription, checks real-time (Linux)
+│   ├── input/                  # Test WAV files (not committed) + ground truth VTTs
 │   └── analysis_*.md           # Accuracy analyses per commit
 └── outputs/                    # Transcript outputs (not committed)
 ```

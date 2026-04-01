@@ -25,8 +25,11 @@ Thumbs.db
 *.tmp
 /tmp/
 
+# Test input audio/video (large binary files — not committed)
+test/input/*.wav
+test/input/*.mp3
+test/input/*.mp4
+test/input/*.flac
+
 # Transcript outputs (regenerable)
 outputs/
-
-# Claude Code instructions (local only)
-CLAUDE.md

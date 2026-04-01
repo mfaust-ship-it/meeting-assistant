@@ -1,0 +1,3347 @@
+WEBVTT
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/8-0
+00:00:03.470 --> 00:00:03.710
+<v Linus Armakola>Something.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/9-0
+00:00:04.390 --> 00:00:07.470
+<v Marius Faust>It's more English with German accent.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/10-0
+00:00:09.110 --> 00:00:13.110
+<v Linus Armakola>We do have a Pakistani and Indian accent
+in there as well.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/12-0
+00:00:12.710 --> 00:00:17.740
+<v Marius Faust>Yeah,
+but I think if they work for long enough</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/12-1
+00:00:17.740 --> 00:00:20.950
+<v Marius Faust>here, they will probably, yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/13-0
+00:00:18.790 --> 00:00:25.894
+<v Linus Armakola>Get the German accent as well. OK,
+maybe restart the recording without the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/13-1
+00:00:25.894 --> 00:00:27.030
+<v Linus Armakola>racist ****.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/14-0
+00:00:28.390 --> 00:00:31.150
+<v Sarosh Manzoor>It used to be inclusive, I felt.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/15-0
+00:00:31.630 --> 00:00:31.670
+<v Marius Faust>Uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/16-0
+00:00:34.550 --> 00:00:35.990
+<v Linus Armakola>So who wants to start?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/17-0
+00:00:36.470 --> 00:00:37.110
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/18-0
+00:00:38.630 --> 00:00:40.430
+<v Linus Armakola>OK, I can start.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/20-0
+00:00:39.110 --> 00:00:43.710
+<v Marius Faust>Uh, what's? What's the agenda?
+Where's the agenda?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/23-0
+00:00:42.510 --> 00:00:46.440
+<v Linus Armakola>Yeah, just, just,
+I thought that we just talk about what</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/23-1
+00:00:46.440 --> 00:00:50.302
+<v Linus Armakola>we've done and what we saw and how do we
+feel about it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/21-0
+00:00:47.830 --> 00:00:48.310
+<v Marius Faust>Mhm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/23-2
+00:00:50.302 --> 00:00:54.990
+<v Linus Armakola>And then at the end we can talk about
+what should we do next maybe.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/24-0
+00:00:56.790 --> 00:01:01.606
+<v Linus Armakola>Um, yeah.
+So I implemented a signal that takes the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/22-0
+00:00:57.870 --> 00:00:58.110
+<v Marius Faust>Nice.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/24-1
+00:01:01.606 --> 00:01:02.550
+<v Linus Armakola>customers.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/25-0
+00:01:04.390 --> 00:01:10.530
+<v Linus Armakola>Data that attributes that he provides
+from the tags and checks if he we can</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/25-1
+00:01:10.530 --> 00:01:12.550
+<v Linus Armakola>find these in the offers.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/27-0
+00:01:14.310 --> 00:01:21.787
+<v Linus Armakola>It's pretty simple, straightforward. Also,
+Marius just updated it to be even better.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/27-1
+00:01:21.787 --> 00:01:28.296
+<v Linus Armakola>So maybe now it's like a tokenized
+include check rather than what was it?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/27-2
+00:01:28.296 --> 00:01:31.990
+<v Linus Armakola>Jacquard distance of the tokens basically.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/28-0
+00:01:32.190 --> 00:01:34.350
+<v Linus Armakola>Which we discussed this morning.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/26-0
+00:01:33.470 --> 00:01:33.670
+<v Marius Faust>Mm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/29-0
+00:01:34.630 --> 00:01:35.310
+<v Marius Faust>Almost.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/30-0
+00:01:36.270 --> 00:01:36.830
+<v Linus Armakola>Almost.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/31-0
+00:01:37.830 --> 00:01:40.800
+<v Marius Faust>Yes,
+so the jacka thing was the enhanced name</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/31-1
+00:01:40.800 --> 00:01:41.510
+<v Marius Faust>similarity.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/33-0
+00:01:42.630 --> 00:01:45.070
+<v Linus Armakola>Oh, OK, I thought we reused that there.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/32-0
+00:01:43.150 --> 00:01:44.350
+<v Marius Faust>And you?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/36-0
+00:01:45.590 --> 00:01:53.664
+<v Marius Faust>I was asking you that and you said
+probably and when I checked it was a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/34-0
+00:01:49.910 --> 00:01:53.550
+<v Linus Armakola>Yeah, I I wouldn't know. Claude did it,
+yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/36-1
+00:01:53.664 --> 00:02:00.617
+<v Marius Faust>basic was just a contains,
+so pretty similar to the tokenized</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/35-0
+00:01:57.630 --> 00:01:58.670
+<v Linus Armakola>OK. Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/36-2
+00:02:00.617 --> 00:02:04.990
+<v Marius Faust>unidirectional includes, but not quite.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/37-0
+00:02:06.190 --> 00:02:09.669
+<v Linus Armakola>Yeah, OK, so uh,
+I did check data on the not improved</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/37-1
+00:02:09.669 --> 00:02:13.470
+<v Linus Armakola>version of that. It did show some results,
+especially for.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/38-0
+00:02:15.630 --> 00:02:19.195
+<v Linus Armakola>Some.
+I don't recall which contracts I ran,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/38-1
+00:02:19.195 --> 00:02:25.837
+<v Linus Armakola>but for some contract the like just using
+the brand actually already showed a lot</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/38-2
+00:02:25.837 --> 00:02:28.510
+<v Linus Armakola>of outliers, a lot of mismatches.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/39-0
+00:02:30.070 --> 00:02:33.721
+<v Linus Armakola>Yeah,
+so I wanted to continue working on it</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/39-1
+00:02:33.721 --> 00:02:37.288
+<v Linus Armakola>today,
+but then Marius and I had a awesome</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/39-2
+00:02:37.288 --> 00:02:44.257
+<v Linus Armakola>discussion about everything this morning,
+including like to change to the tokenized</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/39-3
+00:02:44.257 --> 00:02:45.750
+<v Linus Armakola>include something.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/40-0
+00:02:47.470 --> 00:02:52.390
+<v Linus Armakola>Instead of just contains, apparently. Um,
+and we also talked about.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/41-0
+00:02:54.150 --> 00:02:56.384
+<v Linus Armakola>How we can proceed with all kinds of
+things,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/41-1
+00:02:56.384 --> 00:02:59.710
+<v Linus Armakola>but I think I'll just leave that out here
+because it goes too far.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/42-0
+00:03:01.990 --> 00:03:06.510
+<v Linus Armakola>I am now summarizing these ideas and I
+hope to.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/43-0
+00:03:08.030 --> 00:03:12.190
+<v Linus Armakola>Discuss it with Marius before then
+showing it to everybody.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/44-0
+00:03:13.390 --> 00:03:13.590
+<v Linus Armakola>Um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/45-0
+00:03:15.270 --> 00:03:18.922
+<v Linus Armakola>Yeah,
+but because of that I didn't add a work</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/45-1
+00:03:18.922 --> 00:03:23.606
+<v Linus Armakola>on a second signal.
+Maybe the nice thing about the signals</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/45-2
+00:03:23.606 --> 00:03:29.798
+<v Linus Armakola>that I added is that it's basically a
+signal factory where you can enter like</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/45-3
+00:03:29.798 --> 00:03:30.830
+<v Linus Armakola>all kinds of.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/46-0
+00:03:32.070 --> 00:03:34.190
+<v Linus Armakola>Attributes and then it will produce a.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/47-0
+00:03:36.390 --> 00:03:36.750
+<v Linus Armakola>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/48-0
+00:03:38.950 --> 00:03:41.350
+<v Linus Armakola>Uh, a signal for that attribute.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/49-0
+00:03:42.990 --> 00:03:45.967
+<v Linus Armakola>Yeah,
+but it needs a mapping of customers</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/49-1
+00:03:45.967 --> 00:03:50.077
+<v Linus Armakola>attribute to a internal representation
+because then yeah,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/49-2
+00:03:50.077 --> 00:03:55.888
+<v Linus Armakola>in order to be stable basically because
+in the end if we want to show this on the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/49-3
+00:03:55.888 --> 00:04:01.487
+<v Linus Armakola>dashboard as well and if we just use the
+customers tag names for these then it</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/49-4
+00:04:01.487 --> 00:04:02.550
+<v Linus Armakola>would get very.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/50-0
+00:04:02.630 --> 00:04:08.431
+<v Linus Armakola>Blurry and also in the future we might be
+able to improve this even further by</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/50-1
+00:04:08.431 --> 00:04:13.424
+<v Linus Armakola>having like hard coded fields like brand
+being extracted on Google,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/50-2
+00:04:13.424 --> 00:04:18.270
+<v Linus Armakola>which apparently we don't right now to my
+understanding. So yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/51-0
+00:04:19.550 --> 00:04:21.790
+<v Linus Armakola>That's it. Long monologue questions.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/53-0
+00:04:24.990 --> 00:04:27.710
+<v Linus Armakola>OK, maybe we do a quick quiz.
+Who listened?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/55-0
+00:04:28.950 --> 00:04:31.830
+<v Linus Armakola>Marius listened. That's nice.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/54-0
+00:04:31.110 --> 00:04:34.030
+<v Sarosh Manzoor>And listen to and listen, I swear.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/57-0
+00:04:35.430 --> 00:04:38.210
+<v Sarosh Manzoor>No,
+because we talked about this I guess also</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/57-1
+00:04:38.210 --> 00:04:42.138
+<v Sarosh Manzoor>yesterday quite a lot.
+So there's there are no obvious questions</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/57-2
+00:04:42.138 --> 00:04:46.550
+<v Sarosh Manzoor>at the moment and this is a work in
+progress, so I'm sure there will be.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/58-0
+00:04:43.670 --> 00:04:47.920
+<v Linus Armakola>No,
+maybe the last point that I made is like</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/58-1
+00:04:47.920 --> 00:04:52.076
+<v Linus Armakola>I should make it maybe a little bit
+louder.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/58-2
+00:04:52.076 --> 00:04:57.270
+<v Linus Armakola>We do not extract the specifications of a
+product yet.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/59-0
+00:04:59.110 --> 00:05:03.185
+<v Linus Armakola>And doing that could improve at least my
+signal drastically,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/59-1
+00:05:03.185 --> 00:05:07.327
+<v Linus Armakola>my signals drastically.
+And I think also for other signals it</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/59-2
+00:05:07.327 --> 00:05:11.870
+<v Linus Armakola>could be cool to extract like the
+specifications that Google gives.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/60-0
+00:05:16.150 --> 00:05:17.470
+<v Srihari Kookal>Extract this from where? Sorry.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/61-0
+00:05:18.790 --> 00:05:21.750
+<v Linus Armakola>Let me maybe I just show an example too.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/62-0
+00:05:26.110 --> 00:05:27.070
+<v Linus Armakola>So, um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/63-0
+00:05:33.070 --> 00:05:34.990
+<v Linus Armakola>There is this stuff.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/64-0
+00:05:34.790 --> 00:05:35.150
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/66-0
+00:05:36.150 --> 00:05:42.190
+<v Linus Armakola>Which, for example,
+often contains stuff like the brand.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/65-0
+00:05:42.550 --> 00:05:42.830
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/67-0
+00:05:43.990 --> 00:05:48.430
+<v Linus Armakola>Yeah, and this is kind of structured data.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/68-0
+00:05:49.950 --> 00:05:50.030
+<v Linus Armakola>So.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/69-0
+00:05:51.950 --> 00:05:55.910
+<v Linus Armakola>Comparing against this could be
+improvement for many, many signals.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/70-0
+00:05:57.190 --> 00:06:01.670
+<v Sarosh Manzoor>Do we know if this is part of the JSPB or
+is this is a a separate request?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/71-0
+00:06:00.030 --> 00:06:03.030
+<v Linus Armakola>No, I think this is a separate request.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/73-0
+00:06:01.830 --> 00:06:04.670
+<v Marius Faust>This is not part of the JSPB.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/72-0
+00:06:02.670 --> 00:06:02.790
+<v Sarosh Manzoor>OK.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/74-0
+00:06:06.550 --> 00:06:11.433
+<v Srihari Kookal>So you're saying in in the signal you
+would make this request and then fetch</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/74-1
+00:06:11.433 --> 00:06:11.750
+<v Srihari Kookal>this?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/78-0
+00:06:11.830 --> 00:06:14.562
+<v Linus Armakola>Well,
+we were also talking about persisting</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/75-0
+00:06:12.990 --> 00:06:13.070
+<v Srihari Kookal>Oh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/78-1
+00:06:14.562 --> 00:06:19.280
+<v Linus Armakola>data of products in the database.
+So we could enrich the database with this</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/76-0
+00:06:16.950 --> 00:06:17.470
+<v Srihari Kookal>Mm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/78-2
+00:06:19.280 --> 00:06:23.936
+<v Linus Armakola>information. We could do it synchronously,
+as synchronously. I don't know.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/78-3
+00:06:23.936 --> 00:06:26.667
+<v Linus Armakola>I don't wanna jump to any conclusions
+here,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/77-0
+00:06:23.990 --> 00:06:24.190
+<v Srihari Kookal>No.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/78-4
+00:06:26.667 --> 00:06:29.150
+<v Linus Armakola>but it could be something that improves.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/81-0
+00:06:29.510 --> 00:06:35.750
+<v Linus Armakola>Accuracy a lot 'cause right now I am then
+only comparing against the product name.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/79-0
+00:06:31.270 --> 00:06:31.630
+<v Srihari Kookal>No.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/80-0
+00:06:35.990 --> 00:06:36.750
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/82-0
+00:06:37.670 --> 00:06:41.390
+<v Linus Armakola>Which is OK for some customers,
+but you know, could be better.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/83-0
+00:06:42.470 --> 00:06:46.168
+<v Linus Armakola>Also, for example,
+if there is a manufacturer product name</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/83-1
+00:06:46.168 --> 00:06:50.680
+<v Linus Armakola>in here which isn't in this case,
+manufacturer product name can also be</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/83-2
+00:06:50.680 --> 00:06:55.630
+<v Linus Armakola>like a very strong indicator to also
+match the correct variant and everything.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/84-0
+00:06:57.110 --> 00:07:02.367
+<v Linus Armakola>Yeah, maybe one thing.
+The signal I actually wanted to work on</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/84-1
+00:07:02.367 --> 00:07:08.876
+<v Linus Armakola>today is a specialized quantity checker.
+So I already have a quantity checker</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/84-2
+00:07:08.876 --> 00:07:11.630
+<v Linus Armakola>implemented now, which basically.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/85-0
+00:07:12.150 --> 00:07:16.799
+<v Linus Armakola>Takes the customer's quantity tag and
+looks for that on the product,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/85-1
+00:07:16.799 --> 00:07:21.920
+<v Linus Armakola>but I wanted to improve that to be
+something that understands quantity much</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/85-2
+00:07:21.920 --> 00:07:27.445
+<v Linus Armakola>better. Yeah, but I didn't get to that.
+I still think this is a valuable thing to</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/85-3
+00:07:27.445 --> 00:07:28.590
+<v Linus Armakola>do in the future.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/86-0
+00:07:32.150 --> 00:07:35.550
+<v Linus Armakola>So, Sihari,
+tell us about your secret Jiten project.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/87-0
+00:07:36.310 --> 00:07:36.790
+<v Srihari Kookal>Uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/88-0
+00:07:42.030 --> 00:07:48.305
+<v Srihari Kookal>This is definitely not my original idea.
+This is what Andreas tried last weekend</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/88-1
+00:07:48.305 --> 00:07:54.658
+<v Srihari Kookal>where he was simply scraping all the URLs
+of the office itself and then seeing if</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/88-2
+00:07:54.658 --> 00:08:00.390
+<v Srihari Kookal>that page showed exit in or not.
+I converted this to a signal, ran it on.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/89-0
+00:08:01.310 --> 00:08:05.964
+<v Srihari Kookal>100K products,
+so actually queued it to run for one</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/89-1
+00:08:05.964 --> 00:08:10.350
+<v Srihari Kookal>point, you know, almost 200K products,
+but then.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/90-0
+00:08:11.750 --> 00:08:16.163
+<v Srihari Kookal>Sorry 300K products is what I ran the
+signal for.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/90-1
+00:08:16.163 --> 00:08:23.312
+<v Srihari Kookal>200K did not run because I just had the
+very basic HTTP setup and 200K error out</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/90-2
+00:08:23.312 --> 00:08:27.990
+<v Srihari Kookal>saying the connection pool had too many
+connections.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/91-0
+00:08:28.790 --> 00:08:37.315
+<v Srihari Kookal>Of the 100K requests I made, I didn't get.
+I did not get a J10 for 94% of the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/91-1
+00:08:37.315 --> 00:08:42.670
+<v Srihari Kookal>requests.
+I got the J10 for a small set of them.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/92-0
+00:08:44.430 --> 00:08:52.723
+<v Srihari Kookal>And of that a very small was set for I.
+So I got 400 Jeton confirmed and then 26</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/92-1
+00:08:52.723 --> 00:08:57.944
+<v Srihari Kookal>Jeton mismatched.
+So I don't know 5% or so they're</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/92-2
+00:08:57.944 --> 00:08:59.070
+<v Srihari Kookal>mismatches.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/93-0
+00:09:01.950 --> 00:09:02.030
+<v Srihari Kookal>Um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/94-0
+00:09:05.510 --> 00:09:12.275
+<v Srihari Kookal>I think that connectivity can be improved.
+So this is the signal I would keep</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/94-1
+00:09:12.275 --> 00:09:17.479
+<v Srihari Kookal>because for me the confidence of the
+signal is really high.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/94-2
+00:09:17.479 --> 00:09:23.030
+<v Srihari Kookal>So if you look for a detent in an offer
+page and then you in a.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/95-0
+00:09:23.030 --> 00:09:27.520
+<v Srihari Kookal>Well, we have. I have to learn the terms.
+I don't know if it's called a product</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/95-1
+00:09:27.520 --> 00:09:30.327
+<v Srihari Kookal>display page,
+but wherever the retailer shows the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/95-2
+00:09:30.327 --> 00:09:32.796
+<v Srihari Kookal>product,
+if it shows the exact GTIN that we</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/95-3
+00:09:32.796 --> 00:09:36.052
+<v Srihari Kookal>searched for, then it's 100% match.
+If it is mismatching,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/95-4
+00:09:36.052 --> 00:09:37.230
+<v Srihari Kookal>then it's a mismatch.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/96-0
+00:09:39.670 --> 00:09:45.060
+<v Srihari Kookal>And yesterday I had a very important
+session with ASIN where we first talked</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/96-1
+00:09:45.060 --> 00:09:49.330
+<v Srihari Kookal>about this signal,
+but then there was a second ticket that I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/96-2
+00:09:49.330 --> 00:09:52.690
+<v Srihari Kookal>picked up,
+which was ASIN's idea for building a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/96-3
+00:09:52.690 --> 00:09:54.790
+<v Srihari Kookal>regression model for matching.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/97-0
+00:09:56.430 --> 00:10:01.960
+<v Srihari Kookal>So what what we intended to do was that
+since the Jiten signal is very strong,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/97-1
+00:10:01.960 --> 00:10:05.740
+<v Srihari Kookal>if we see a Jiten match then it's
+definitely a match.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/97-2
+00:10:05.740 --> 00:10:11.270
+<v Srihari Kookal>We would use that as a training data.
+So matches and mismatches from the Jiten</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/97-3
+00:10:11.270 --> 00:10:14.070
+<v Srihari Kookal>signal would be used as a training data.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/98-0
+00:10:14.070 --> 00:10:20.913
+<v Srihari Kookal>To train logarithmic regression
+classifier and that would in turn become</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/98-1
+00:10:20.913 --> 00:10:28.224
+<v Srihari Kookal>a signal. So we would train the weights,
+use the weights in a signal and that</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/98-2
+00:10:28.224 --> 00:10:29.630
+<v Srihari Kookal>would become a.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/99-0
+00:10:30.790 --> 00:10:34.435
+<v Srihari Kookal>Signal with with its own unknown
+heuristics,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/99-1
+00:10:34.435 --> 00:10:40.752
+<v Srihari Kookal>but basically whatever it learns from
+this and in the end what Ehsan proposed</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/99-2
+00:10:40.752 --> 00:10:47.231
+<v Srihari Kookal>is that we have a classifying pipeline
+where we have a set of rules in the very</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/99-3
+00:10:47.231 --> 00:10:50.470
+<v Srihari Kookal>beginning which do all the determinants.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/100-0
+00:10:50.470 --> 00:10:56.472
+<v Srihari Kookal>Probabilistic signals that we have now,
+like say data mismatches, name mismatches,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/100-1
+00:10:56.472 --> 00:11:02.257
+<v Srihari Kookal>all the for sure yes and no signals get
+right first and then afterwards we send</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/100-2
+00:11:02.257 --> 00:11:06.379
+<v Srihari Kookal>it to some probabilistic system like this
+which says OK,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/100-3
+00:11:06.379 --> 00:11:08.910
+<v Srihari Kookal>this likely looks correct or wrong.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/101-0
+00:11:09.350 --> 00:11:15.455
+<v Srihari Kookal>So that was all learning for me.
+What I would take away from this is I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/101-1
+00:11:15.455 --> 00:11:21.989
+<v Srihari Kookal>will try to productionize the detail
+signal itself so that we have a better</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/101-2
+00:11:21.989 --> 00:11:24.310
+<v Srihari Kookal>way of making requests and.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/102-0
+00:11:24.590 --> 00:11:29.529
+<v Srihari Kookal>Providing that that extra confidence that
+OK, this is a GDN match,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/102-1
+00:11:29.529 --> 00:11:33.658
+<v Srihari Kookal>so it probably definitely is a match.
+That's one thing.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/102-2
+00:11:33.658 --> 00:11:39.334
+<v Srihari Kookal>Second thing throughout the thing I
+learned is that our immediate problem is</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/102-3
+00:11:39.334 --> 00:11:42.430
+<v Srihari Kookal>that we have a lot of bad search attempts.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/103-0
+00:11:43.430 --> 00:11:49.715
+<v Srihari Kookal>So even though the the whole tribunal
+tries to achieve even further and broader</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/103-1
+00:11:49.715 --> 00:11:54.037
+<v Srihari Kookal>goals for us,
+I think the immediate problem is that we</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/103-2
+00:11:54.037 --> 00:12:00.636
+<v Srihari Kookal>have a lot of bad Google search attempts.
+So whatever we get while we work on this,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/103-3
+00:12:00.636 --> 00:12:03.150
+<v Srihari Kookal>we should just keep clearing it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/104-0
+00:12:03.430 --> 00:12:07.070
+<v Srihari Kookal>As we go, I think we.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/105-0
+00:12:08.870 --> 00:12:12.618
+<v Srihari Kookal>We talked about this before.
+I was not so convinced about it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/105-1
+00:12:12.618 --> 00:12:16.063
+<v Srihari Kookal>Then I was also saying why do we want to
+do actions now?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/105-2
+00:12:16.063 --> 00:12:20.717
+<v Srihari Kookal>Let's do let's build actions later.
+But that's changed for me. Now I'm like,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/105-3
+00:12:20.717 --> 00:12:25.190
+<v Srihari Kookal>OK, these are obvious mismatches.
+We should just clear them off and then.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/106-0
+00:12:25.510 --> 00:12:29.230
+<v Srihari Kookal>Get rid of them. Yeah,
+that's a bit of light.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/107-0
+00:12:31.550 --> 00:12:32.590
+<v Srihari Kookal>That's me.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/108-0
+00:12:33.670 --> 00:12:34.510
+<v Srihari Kookal>That will show my hand up.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/109-0
+00:12:36.230 --> 00:12:39.950
+<v Sarosh Manzoor>Yeah, sorry,
+I was briefly wanted to ask for the G10</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/109-1
+00:12:39.950 --> 00:12:45.003
+<v Sarosh Manzoor>match. What exactly are we looking?
+Are we looking for whether this G10</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/109-2
+00:12:45.003 --> 00:12:47.670
+<v Sarosh Manzoor>exists in the page that we downloaded?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/110-0
+00:12:48.950 --> 00:12:52.876
+<v Sarosh Manzoor>If that is the case,
+my question is what happens in that case,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/110-1
+00:12:52.876 --> 00:12:55.681
+<v Sarosh Manzoor>which is,
+I'm not sure if it's super common,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/110-2
+00:12:55.681 --> 00:12:59.794
+<v Sarosh Manzoor>but I've definitely seen it happen.
+If that if you have variance,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/110-3
+00:12:59.794 --> 00:13:02.723
+<v Sarosh Manzoor>then all the variant GTNS will be in the
+page.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/110-4
+00:13:02.723 --> 00:13:06.462
+<v Sarosh Manzoor>So even though you might match the GTN
+exactly on the page,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/110-5
+00:13:06.462 --> 00:13:08.830
+<v Sarosh Manzoor>it might not be pointing to the exact.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/111-0
+00:13:09.030 --> 00:13:15.650
+<v Sarosh Manzoor>Rating that you're looking for.
+I don't know what the best way to is in a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/111-1
+00:13:15.650 --> 00:13:17.350
+<v Sarosh Manzoor>scenario like that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/112-0
+00:13:20.470 --> 00:13:24.726
+<v Srihari Kookal>Yeah,
+so for now I have a bunch of ways to</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/112-1
+00:13:24.726 --> 00:13:30.663
+<v Srihari Kookal>detect the in the HTML page,
+but basically I look for tags,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/112-2
+00:13:30.663 --> 00:13:35.710
+<v Srihari Kookal>meta tags or data attributes that that
+are called.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/113-0
+00:13:36.150 --> 00:13:42.265
+<v Srihari Kookal>I also saw the problems with variants
+because a lot of mismatches that I tagged</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/113-1
+00:13:42.265 --> 00:13:46.698
+<v Srihari Kookal>were just differing by two or three
+digits or even fewer,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/113-2
+00:13:46.698 --> 00:13:52.430
+<v Srihari Kookal>and most likely they were just variants,
+so I wasn't too sure if I should.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/114-0
+00:13:53.270 --> 00:13:54.670
+<v Srihari Kookal>Mark them as a mismatch a lot.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/117-0
+00:13:57.950 --> 00:14:01.299
+<v Sarosh Manzoor>OK, and because I was,
+I think I I don't remember exactly which</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/117-1
+00:14:01.299 --> 00:14:03.863
+<v Sarosh Manzoor>portal,
+but what I've seen happen is that if you</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/117-2
+00:14:03.863 --> 00:14:08.206
+<v Sarosh Manzoor>have a drop down with all the variations
+included and you also likely have all the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/116-0
+00:14:04.310 --> 00:14:05.070
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/117-3
+00:14:08.206 --> 00:14:11.974
+<v Sarosh Manzoor>and the and the corresponding HTML.
+But if you're not just doing like a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/117-4
+00:14:11.974 --> 00:14:14.590
+<v Sarosh Manzoor>string contains,
+if you're instead looking at it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/118-0
+00:14:14.790 --> 00:14:19.400
+<v Sarosh Manzoor>Some sort of A tag,
+I guess then it's probably probably safer</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/118-1
+00:14:19.400 --> 00:14:22.150
+<v Sarosh Manzoor>than just doing string contains, but.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/119-0
+00:14:22.190 --> 00:14:22.510
+<v Sarosh Manzoor>But.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/120-0
+00:14:22.190 --> 00:14:26.635
+<v Srihari Kookal>Yeah, I don't do a string contains,
+so I get the HTML,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/120-1
+00:14:26.635 --> 00:14:31.726
+<v Srihari Kookal>try to extract something that looks like
+it's written from it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/120-2
+00:14:31.726 --> 00:14:36.736
+<v Srihari Kookal>From what I remember,
+it is just looking at meta tags and the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/120-3
+00:14:36.736 --> 00:14:38.190
+<v Srihari Kookal>what is it called?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/122-0
+00:14:38.790 --> 00:14:43.390
+<v Srihari Kookal>The open API uh tags or so um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/121-0
+00:14:42.710 --> 00:14:43.030
+<v Sarosh Manzoor>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/124-0
+00:14:44.350 --> 00:14:48.171
+<v Srihari Kookal>I don't think I'm looking for numbers of
+14 digits or so,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/124-1
+00:14:48.171 --> 00:14:51.268
+<v Srihari Kookal>so I'm not looking for something very
+generic.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/124-2
+00:14:51.268 --> 00:14:55.550
+<v Srihari Kookal>I'm looking for markers around it that
+says that it's a written.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/126-0
+00:14:55.070 --> 00:14:59.230
+<v Sarosh Manzoor>Go ahead, got it.
+Then I guess it doesn't reply what I said.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/125-0
+00:14:56.470 --> 00:14:56.550
+<v Srihari Kookal>Oh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/127-0
+00:14:59.390 --> 00:15:01.985
+<v Srihari Kookal>Yeah,
+but I've definitely seen variants being</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/127-1
+00:15:01.985 --> 00:15:03.790
+<v Srihari Kookal>treated as mismatched right now.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/130-0
+00:15:04.870 --> 00:15:10.348
+<v Sarosh Manzoor>Which is valid, I guess,
+which is a valid thing category to mark</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/129-0
+00:15:09.190 --> 00:15:09.230
+<v Marius Faust>I.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/130-1
+00:15:10.348 --> 00:15:11.190
+<v Sarosh Manzoor>if it's a.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/131-0
+00:15:14.750 --> 00:15:19.912
+<v Linus Armakola>So sounds a little bit disappointing in
+the in the sense of it's a very,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/131-1
+00:15:19.912 --> 00:15:23.306
+<v Linus Armakola>very small number that was actually
+successful,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/131-2
+00:15:23.306 --> 00:15:29.104
+<v Linus Armakola>but I'm I think there is also a bias to
+that because you did take maybe the pages</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/131-3
+00:15:29.104 --> 00:15:32.710
+<v Linus Armakola>that show the G10 are also a bit better
+protected.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/132-0
+00:15:32.910 --> 00:15:34.190
+<v Linus Armakola>Baby like um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/134-0
+00:15:35.790 --> 00:15:41.714
+<v Linus Armakola>That might be a a thing that changes a
+lot once we get something more</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/134-1
+00:15:41.714 --> 00:15:43.830
+<v Linus Armakola>sophisticated to request.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/135-0
+00:15:45.910 --> 00:15:51.152
+<v Linus Armakola>So I I'm I'm still hopeful for this to to
+to like more matches,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/135-1
+00:15:51.152 --> 00:15:57.459
+<v Linus Armakola>but like to increase the percent of
+percentage of of on a page mismatch or a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/135-2
+00:15:57.459 --> 00:15:57.950
+<v Linus Armakola>match.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/136-0
+00:15:59.710 --> 00:16:02.230
+<v Linus Armakola>So yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/137-0
+00:16:01.390 --> 00:16:05.834
+<v Marius Faust>Just one question.
+Didn't you say like all of 300 requests,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/137-1
+00:16:05.834 --> 00:16:08.870
+<v Marius Faust>300K requests, only 100 succeeded, right?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/138-0
+00:16:10.030 --> 00:16:11.830
+<v Linus Armakola>One another K.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/139-0
+00:16:10.310 --> 00:16:11.670
+<v Marius Faust>100K, sorry.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/140-0
+00:16:13.470 --> 00:16:14.950
+<v Marius Faust>Uh, you're muted.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/141-0
+00:16:17.630 --> 00:16:18.990
+<v Srihari Kookal>Sorry, yeah, uh, you see it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/143-0
+00:16:21.110 --> 00:16:22.190
+<v Marius Faust>Uh, yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/144-0
+00:16:23.310 --> 00:16:24.550
+<v Srihari Kookal>Maybe uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/145-0
+00:16:26.270 --> 00:16:27.350
+<v Srihari Kookal>Oh, why is it?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/146-0
+00:16:26.950 --> 00:16:31.190
+<v Marius Faust>Oh, OK.
+So you basically the issue was that, yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/148-0
+00:16:31.230 --> 00:16:35.110
+<v Srihari Kookal>Like a good number failed to fetch.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/147-0
+00:16:31.670 --> 00:16:31.750
+<v Sarosh Manzoor>Oh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/149-0
+00:16:36.990 --> 00:16:37.070
+<v Srihari Kookal>Um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/150-0
+00:16:38.350 --> 00:16:40.430
+<v Linus Armakola>OK, that's even less than I thought.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/151-0
+00:16:41.910 --> 00:16:42.230
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/152-0
+00:16:42.670 --> 00:16:43.830
+<v Linus Armakola>Oh, yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/153-0
+00:16:43.310 --> 00:16:48.230
+<v Marius Faust>And mismatch means you found no jetons or
+you found a jeton that was not matching.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/154-0
+00:16:48.750 --> 00:16:50.910
+<v Srihari Kookal>I found a date and that was not patching.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/156-0
+00:16:50.910 --> 00:16:54.364
+<v Linus Armakola>Actually,
+like comparing the confirmed match and</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/156-1
+00:16:54.364 --> 00:16:58.451
+<v Linus Armakola>the confirmed mismatch,
+that's a bad ratio. It's 1 to 13.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/156-2
+00:16:58.451 --> 00:17:02.750
+<v Linus Armakola>So every 14th G10 is wrong if we take
+that number seriously.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/155-0
+00:17:04.270 --> 00:17:05.750
+<v Marius Faust>What? What? What? What? What?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/158-0
+00:17:06.830 --> 00:17:10.460
+<v Srihari Kookal>Yeah,
+I would also have a bias there I think</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/158-1
+00:17:10.460 --> 00:17:16.510
+<v Srihari Kookal>because I picked the contracts and
+products from uh result of Andreas, so.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/157-0
+00:17:12.350 --> 00:17:12.550
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/161-0
+00:17:18.590 --> 00:17:22.061
+<v Linus Armakola>OK,
+but if if this number's like if the ratio</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/159-0
+00:17:19.230 --> 00:17:20.270
+<v Srihari Kookal>I don't know.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/161-1
+00:17:22.061 --> 00:17:25.230
+<v Linus Armakola>stays the same, it's still 1 to 13, right?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/160-0
+00:17:22.750 --> 00:17:23.430
+<v Srihari Kookal>Mhm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/162-0
+00:17:28.430 --> 00:17:29.590
+<v Linus Armakola>Uh, no, wait a second.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/164-0
+00:17:30.510 --> 00:17:33.350
+<v Marius Faust>I'm not that fast in with mouth.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/163-0
+00:17:31.230 --> 00:17:33.030
+<v Linus Armakola>Yeah, OK. Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/165-0
+00:17:34.430 --> 00:17:37.403
+<v Linus Armakola>No,
+I was just taking the percentage of GTN</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/165-1
+00:17:37.403 --> 00:17:40.510
+<v Linus Armakola>match confirmed versus GTN mismatch
+detected.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/166-0
+00:17:42.230 --> 00:17:42.470
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/167-0
+00:17:43.510 --> 00:17:44.190
+<v Srihari Kookal>This one, right?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/170-0
+00:17:43.590 --> 00:17:48.394
+<v Marius Faust>Yeah, it's true. Yeah, yeah, yeah, yeah,
+you're right. Yeah, it means every 14th.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/168-0
+00:17:44.750 --> 00:17:45.310
+<v Linus Armakola>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/169-0
+00:17:47.990 --> 00:17:48.070
+<v Srihari Kookal>Um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/170-1
+00:17:48.394 --> 00:17:52.026
+<v Marius Faust>But isn't that good?
+Like then we have a data quality of 94%.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/171-0
+00:17:51.430 --> 00:17:55.510
+<v Srihari Kookal>No, I uh, OK, but I.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/170-2
+00:17:52.026 --> 00:17:52.670
+<v Marius Faust>It's is it?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/175-0
+00:17:55.070 --> 00:17:58.870
+<v Linus Armakola>No, yeah. The thing is,
+you can't calculate it like I just did,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/172-0
+00:17:57.310 --> 00:18:00.910
+<v Srihari Kookal>No, I I I just eliminated this.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/175-1
+00:17:58.870 --> 00:18:03.086
+<v Linus Armakola>I think. Oh no, wait a second.
+It's it's against the same base number.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/173-0
+00:18:02.430 --> 00:18:02.790
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/175-2
+00:18:03.086 --> 00:18:04.630
+<v Linus Armakola>So it's it is 12413, yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/174-0
+00:18:03.590 --> 00:18:03.910
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/178-0
+00:18:04.590 --> 00:18:12.009
+<v Srihari Kookal>No, I so I eliminated this fetch failure,
+which is basically me making a bad HTTP</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/176-0
+00:18:08.870 --> 00:18:09.350
+<v Marius Faust>Mhm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/178-1
+00:18:12.009 --> 00:18:15.990
+<v Srihari Kookal>request and failing to get any data at
+all.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/177-0
+00:18:17.030 --> 00:18:17.190
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/180-0
+00:18:17.230 --> 00:18:20.770
+<v Srihari Kookal>And and what if you just look at this
+then?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/180-1
+00:18:20.770 --> 00:18:24.550
+<v Srihari Kookal>So of the 431 where I was able to get
+exit in?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/179-0
+00:18:23.390 --> 00:18:25.590
+<v Linus Armakola>I don't trust the numbers anymore.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/181-0
+00:18:28.550 --> 00:18:28.790
+<v Srihari Kookal>OK.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/183-0
+00:18:29.790 --> 00:18:36.338
+<v Marius Faust>I mean how I understand it is we have if
+we interpolate this then we have a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/182-0
+00:18:30.270 --> 00:18:30.470
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/183-1
+00:18:36.338 --> 00:18:43.316
+<v Marius Faust>precision or a quality of 94% which is
+like I know it's better than Heureka that</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/183-2
+00:18:43.316 --> 00:18:46.590
+<v Marius Faust>we have after the upgrade I think 85%.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/184-0
+00:18:47.710 --> 00:18:52.070
+<v Marius Faust>But the main issue is that even from.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/185-0
+00:18:53.710 --> 00:18:59.681
+<v Marius Faust>The requests you were success you
+successfully made, you only have 0.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/185-1
+00:18:59.681 --> 00:19:00.790
+<v Marius Faust>5% chance no.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/186-0
+00:19:02.190 --> 00:19:05.350
+<v Marius Faust>Yeah, about 0.
+5% chance of even finding a jiton.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/187-0
+00:19:08.270 --> 00:19:15.030
+<v Marius Faust>Which means right because you
+successfully did 100K requests and only.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/188-0
+00:19:16.270 --> 00:19:16.310
+<v Marius Faust>Uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/189-0
+00:19:18.030 --> 00:19:20.350
+<v Marius Faust>Only 500 gitans found.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/190-0
+00:19:21.950 --> 00:19:25.070
+<v Linus Armakola>OK, there's a rounding mistake.
+That's why I didn't trust the numbers.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/192-0
+00:19:25.710 --> 00:19:31.160
+<v Marius Faust>Which means that basically in order for
+this to be used at larger scale,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/192-1
+00:19:31.160 --> 00:19:37.132
+<v Marius Faust>we need to upgrade the GTN detection or
+maybe there are no GTNS on the pages at</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/191-0
+00:19:31.630 --> 00:19:32.150
+<v Srihari Kookal>Mhm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/192-2
+00:19:37.132 --> 00:19:37.430
+<v Marius Faust>all.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/193-0
+00:19:38.950 --> 00:19:44.870
+<v Srihari Kookal>Yeah, yeah,
+but so get rid of this altogether from</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/193-1
+00:19:44.870 --> 00:19:46.030
+<v Srihari Kookal>the thing.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/195-0
+00:19:45.390 --> 00:19:50.070
+<v Marius Faust>Yeah, I don't think about it.
+Just watch at 100K successful requests.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/194-0
+00:19:47.630 --> 00:19:47.710
+<v Srihari Kookal>The.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/196-0
+00:19:51.310 --> 00:19:51.350
+<v Srihari Kookal>Uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/197-0
+00:19:53.230 --> 00:19:57.590
+<v Srihari Kookal>Of the 100K successful, yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/200-0
+00:19:59.230 --> 00:20:03.721
+<v Srihari Kookal>Yeah,
+I mean if I if I if I just look at this,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/198-0
+00:20:00.110 --> 00:20:00.830
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/200-1
+00:20:03.721 --> 00:20:09.550
+<v Srihari Kookal>this is almost 100K and this is less than
+1000 in total, so.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/199-0
+00:20:07.750 --> 00:20:08.230
+<v Marius Faust>Yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/202-0
+00:20:09.310 --> 00:20:13.350
+<v Sarosh Manzoor>Also, um one small introduction.
+I think I already mentioned Srihari in</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/202-1
+00:20:13.350 --> 00:20:16.829
+<v Sarosh Manzoor>the chat as well that of the 100K
+requests that we succeeded,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/202-2
+00:20:16.829 --> 00:20:19.803
+<v Sarosh Manzoor>are we sure that some of them were not,
+for example,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/202-3
+00:20:19.803 --> 00:20:23.900
+<v Sarosh Manzoor>cookie pop-ups that we have to accept?
+That's why we don't see any data.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/202-4
+00:20:23.900 --> 00:20:28.220
+<v Sarosh Manzoor>So if you handle the cookie pop-up,
+you then might get to the page where you</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/202-5
+00:20:28.220 --> 00:20:29.230
+<v Sarosh Manzoor>actually are able.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/201-0
+00:20:28.590 --> 00:20:29.550
+<v Linus Armakola>That's true, yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/205-0
+00:20:28.670 --> 00:20:32.750
+<v Srihari Kookal>And could be,
+but usually the cookie popups you would</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/203-0
+00:20:29.310 --> 00:20:31.030
+<v Sarosh Manzoor>And able to then extract the data.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/205-1
+00:20:32.750 --> 00:20:38.190
+<v Srihari Kookal>see. I mean you can you are able to. Yeah,
+it's it's an overlay, right?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/204-0
+00:20:37.590 --> 00:20:38.390
+<v Linus Armakola>Overlay.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/205-2
+00:20:38.190 --> 00:20:44.310
+<v Srihari Kookal>Like you can if you just pull the HTML,
+you still get to see the data behind it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/207-0
+00:20:44.190 --> 00:20:47.701
+<v Sarosh Manzoor>I think not.
+Like when I was working on tweakers and</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/207-1
+00:20:47.701 --> 00:20:50.948
+<v Sarosh Manzoor>stuff,
+I saw this like I had to handle the yeah,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/206-0
+00:20:48.030 --> 00:20:51.230
+<v Srihari Kookal>Huh. It's a redirect, is it?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/207-2
+00:20:50.948 --> 00:20:52.670
+<v Sarosh Manzoor>something like that, yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/209-0
+00:20:53.670 --> 00:20:55.230
+<v Linus Armakola>Most pages have over label.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/208-0
+00:20:54.630 --> 00:20:54.790
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/210-0
+00:20:56.630 --> 00:20:57.110
+<v Marius Faust>So I.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/213-0
+00:20:56.910 --> 00:20:59.879
+<v Linus Armakola>I I would,
+but I think it doesn't really matter.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/211-0
+00:20:59.070 --> 00:21:00.270
+<v Srihari Kookal>Mhm, mhm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/213-1
+00:20:59.879 --> 00:21:04.119
+<v Linus Armakola>Like I mean we can just take there can be
+possibilities for anything,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/213-2
+00:21:04.119 --> 00:21:09.147
+<v Linus Armakola>but we should get the numbers up like we
+should detect more and we should get more</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/212-0
+00:21:04.910 --> 00:21:05.430
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/215-0
+00:21:08.990 --> 00:21:13.063
+<v Marius Faust>I I think, but from my perspective,
+if you have to prioritise it,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/213-3
+00:21:09.147 --> 00:21:09.510
+<v Linus Armakola>pages.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/215-1
+00:21:13.063 --> 00:21:18.247
+<v Marius Faust>the get actually find more G tents on the
+pages you open is way more important than</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/215-2
+00:21:18.247 --> 00:21:23.308
+<v Marius Faust>fetching more pages because only getting
+like 1/3 of the pages like it's not good</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/215-3
+00:21:23.308 --> 00:21:24.110
+<v Marius Faust>but fine but.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/214-0
+00:21:23.910 --> 00:21:23.990
+<v Linus Armakola>Hey.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/217-0
+00:21:25.270 --> 00:21:29.699
+<v Marius Faust>Fighting only on 0.
+5% pages of the of the pages.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/216-0
+00:21:26.110 --> 00:21:26.230
+<v Srihari Kookal>So.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/217-1
+00:21:29.699 --> 00:21:31.470
+<v Marius Faust>G tense is not good.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/218-0
+00:21:31.470 --> 00:21:37.599
+<v Linus Armakola>I would actually also do like.
+I kind of agree, but I also disagree. Um,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/218-1
+00:21:37.599 --> 00:21:38.270
+<v Linus Armakola>I would.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/219-0
+00:21:40.190 --> 00:21:45.350
+<v Linus Armakola>I would also recommend to list the
+portals that were blocked.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/220-0
+00:21:47.150 --> 00:21:53.910
+<v Linus Armakola>And see if there is any low hanging fruit
+because if for example we access like if.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/221-0
+00:21:55.790 --> 00:22:00.550
+<v Linus Armakola>So from the 200K requests, I don't know,
+20K is Kaufland.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/222-0
+00:22:02.350 --> 00:22:07.310
+<v Linus Armakola>Um. And then we know that Kauflent,
+for example, often contains cheetance.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/223-0
+00:22:08.550 --> 00:22:12.350
+<v Linus Armakola>Then that's something valuable to address
+specifically.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/224-0
+00:22:11.550 --> 00:22:14.270
+<v Marius Faust>Yeah, it's true also.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/225-0
+00:22:13.790 --> 00:22:17.430
+<v Linus Armakola>So I would also analyze what portals are
+we actually opening.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/226-0
+00:22:17.110 --> 00:22:20.102
+<v Marius Faust>Also,
+there's the advantage that for one</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/226-1
+00:22:20.102 --> 00:22:25.940
+<v Marius Faust>product we likely have multiple offer
+pages and we only need to find the G10 on</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/226-2
+00:22:25.940 --> 00:22:27.910
+<v Marius Faust>one of the offer pages, so.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/227-0
+00:22:29.070 --> 00:22:33.670
+<v Marius Faust>Like this G10 mismatch is per offer I
+guess and not per product.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/228-0
+00:22:38.430 --> 00:22:40.470
+<v Marius Faust>Right. So for example if we.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/229-0
+00:22:39.510 --> 00:22:43.296
+<v Linus Armakola>Uh,
+he short circuits as soon as he finds the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/229-1
+00:22:43.296 --> 00:22:43.790
+<v Linus Armakola>first.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/231-0
+00:22:43.830 --> 00:22:45.310
+<v Marius Faust>OK, yeah, but.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/230-0
+00:22:45.150 --> 00:22:45.510
+<v Sarosh Manzoor>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/232-0
+00:22:45.430 --> 00:22:48.670
+<v Linus Armakola>I don't know. I see you are muted.
+I didn't know if you were talking.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/234-0
+00:22:48.670 --> 00:22:52.387
+<v Srihari Kookal>No, no, I I I wasn't.
+I I got a false alarm as a call,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/233-0
+00:22:51.470 --> 00:22:52.350
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/234-1
+00:22:52.387 --> 00:22:55.630
+<v Srihari Kookal>got distracted a bit,
+but I'm short circuiting.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/235-0
+00:22:53.310 --> 00:22:59.992
+<v Marius Faust>But yeah, but this this, yeah,
+but this still means that the real number</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/235-1
+00:22:59.992 --> 00:23:04.110
+<v Marius Faust>is still a little bit better than 0.050.
+5%.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/236-0
+00:23:05.270 --> 00:23:09.269
+<v Srihari Kookal>So for the original experiment that
+Andreas did,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/236-1
+00:23:09.269 --> 00:23:14.736
+<v Srihari Kookal>he had like 25% of valuability,
+which means that one by 4th of the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/236-2
+00:23:14.736 --> 00:23:18.653
+<v Srihari Kookal>requests he made,
+he was able to fetch it back.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/236-3
+00:23:18.653 --> 00:23:21.590
+<v Srihari Kookal>This is probably because he fetched.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/237-0
+00:23:23.510 --> 00:23:26.710
+<v Srihari Kookal>Products where he he filtered for
+possibly good domains.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/239-0
+00:23:26.990 --> 00:23:30.030
+<v Linus Armakola>Ah, OK. Yeah, he was cheating.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/238-0
+00:23:28.270 --> 00:23:29.830
+<v Marius Faust>Though he was cheating.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/240-0
+00:23:30.350 --> 00:23:30.870
+<v Srihari Kookal>Mm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/242-0
+00:23:32.230 --> 00:23:33.430
+<v Marius Faust>I see.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/241-0
+00:23:33.750 --> 00:23:33.990
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/243-0
+00:23:36.270 --> 00:23:41.068
+<v Srihari Kookal>Uh,
+but I think improving how we how of the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/243-1
+00:23:41.068 --> 00:23:43.030
+<v Srihari Kookal>request submit uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/244-0
+00:23:45.230 --> 00:23:49.550
+<v Srihari Kookal>Should, I don't know,
+should change the numbers a bit I think.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/246-0
+00:23:49.230 --> 00:23:49.990
+<v Marius Faust>Yeah, probably.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/245-0
+00:23:49.350 --> 00:23:49.710
+<v Linus Armakola>Yep.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/247-0
+00:23:53.030 --> 00:23:53.350
+<v Srihari Kookal>Yep.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/249-0
+00:23:56.750 --> 00:24:00.314
+<v Linus Armakola>Like, still,
+I'm very concerned about the mismatch</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/249-1
+00:24:00.314 --> 00:24:02.830
+<v Linus Armakola>match rate. Um, it still means that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/248-0
+00:24:02.030 --> 00:24:02.230
+<v Marius Faust>Willy.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/253-0
+00:24:05.790 --> 00:24:10.653
+<v Linus Armakola>Like if we if this,
+if this scales linearly,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/250-0
+00:24:06.550 --> 00:24:06.870
+<v Srihari Kookal>Uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/251-0
+00:24:08.990 --> 00:24:10.070
+<v Srihari Kookal>Mm-hmm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/252-0
+00:24:09.910 --> 00:24:10.070
+<v Marius Faust>Yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/253-1
+00:24:10.653 --> 00:24:13.030
+<v Linus Armakola>we have 6% mismatches.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/255-0
+00:24:12.630 --> 00:24:15.750
+<v Srihari Kookal>Yeah, yeah, that's that's huge, right?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/254-0
+00:24:12.750 --> 00:24:13.270
+<v Marius Faust>Yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/256-0
+00:24:13.870 --> 00:24:15.830
+<v Linus Armakola>Of all, yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/257-0
+00:24:15.950 --> 00:24:18.710
+<v Marius Faust>It's is is that it's OK, I I I see.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/259-0
+00:24:19.550 --> 00:24:22.230
+<v Srihari Kookal>It's bad because it's.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/258-0
+00:24:21.430 --> 00:24:22.750
+<v Linus Armakola>It's really bad.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/260-0
+00:24:25.630 --> 00:24:29.136
+<v Linus Armakola>I know large numbers.
+Everything smaller than large numbers is</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/260-1
+00:24:29.136 --> 00:24:29.470
+<v Linus Armakola>great.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/262-0
+00:24:29.510 --> 00:24:31.801
+<v Srihari Kookal>No,
+you I think you should compare to other</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/262-1
+00:24:31.801 --> 00:24:32.790
+<v Srihari Kookal>searches on Google.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/261-0
+00:24:32.030 --> 00:24:34.070
+<v Linus Armakola>So imagine, imagine.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/265-0
+00:24:35.310 --> 00:24:38.862
+<v Linus Armakola>No,
+I I would actually phrase it differently.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/264-0
+00:24:36.550 --> 00:24:37.630
+<v Srihari Kookal>Mm-hmm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/265-1
+00:24:38.862 --> 00:24:44.963
+<v Linus Armakola>Imagine customers would reimburse the
+mismatches that would decrease our money</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/265-2
+00:24:44.963 --> 00:24:46.430
+<v Linus Armakola>by 6% as a company.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/266-0
+00:24:47.670 --> 00:24:47.790
+<v Linus Armakola>Like.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/267-0
+00:24:49.030 --> 00:24:56.670
+<v Srihari Kookal>Would they then shut up and then continue
+using our product? Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/268-0
+00:24:52.990 --> 00:24:57.418
+<v Linus Armakola>No,
+but like thinking about that about it</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/268-1
+00:24:57.418 --> 00:25:03.110
+<v Linus Armakola>that way then if you like calculate the
+cost of that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/269-0
+00:25:03.270 --> 00:25:03.310
+<v Linus Armakola>Uh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/270-0
+00:25:04.510 --> 00:25:09.190
+<v Linus Armakola>You suddenly like end up with 25K per
+month.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/271-0
+00:25:11.110 --> 00:25:13.367
+<v Srihari Kookal>Yeah,
+I think also 6% is good enough for</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/271-1
+00:25:13.367 --> 00:25:17.882
+<v Srihari Kookal>someone to randomly notice like if they
+use the product for a day or two and then</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/271-2
+00:25:17.882 --> 00:25:21.790
+<v Srihari Kookal>they it becomes an issue with the support
+and then people are unhappy.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/272-0
+00:25:21.870 --> 00:25:25.081
+<v Linus Armakola>Yeah, but they they don't randomly notice,
+right?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/272-1
+00:25:25.081 --> 00:25:28.870
+<v Linus Armakola>They notice because they take the out the
+strong outliers.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/274-0
+00:25:30.270 --> 00:25:31.750
+<v Marius Faust>Yeah, OK, so.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/273-0
+00:25:31.790 --> 00:25:32.230
+<v Srihari Kookal>Mm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/279-0
+00:25:33.190 --> 00:25:36.607
+<v Linus Armakola>Another idea maybe also for running the
+signal,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/279-1
+00:25:36.607 --> 00:25:42.301
+<v Linus Armakola>what you could also do is filter down the
+number because it doesn't scale well,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/276-0
+00:25:36.750 --> 00:25:37.270
+<v Srihari Kookal>Mhm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/279-2
+00:25:42.301 --> 00:25:45.647
+<v Linus Armakola>right?
+You could filter with other signals 1st</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/277-0
+00:25:42.830 --> 00:25:43.390
+<v Srihari Kookal>Mhm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/279-3
+00:25:45.647 --> 00:25:50.416
+<v Linus Armakola>and then run less signals,
+run less products through the signal if</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/278-0
+00:25:48.830 --> 00:25:49.310
+<v Srihari Kookal>Oh, OK.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/279-4
+00:25:50.416 --> 00:25:51.270
+<v Linus Armakola>you want to.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/280-0
+00:25:51.790 --> 00:25:56.344
+<v Linus Armakola>Pinpoint towards like find indicators
+that point towards mismatches.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/280-1
+00:25:56.344 --> 00:25:59.710
+<v Linus Armakola>Then you can maybe filter first with
+other things.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/281-0
+00:26:01.230 --> 00:26:03.350
+<v Sarosh Manzoor>Yeah, the pipeline allows for it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/282-0
+00:26:03.070 --> 00:26:06.217
+<v Srihari Kookal>Yeah, I think that.
+So that's one of the recommendations I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/282-1
+00:26:06.217 --> 00:26:10.217
+<v Srihari Kookal>got very early on saying that this is
+this uses a network call and this is</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/282-2
+00:26:10.217 --> 00:26:14.430
+<v Srihari Kookal>considered a costlier signal and they
+should always follow the cheaper signals</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/282-3
+00:26:14.430 --> 00:26:17.630
+<v Srihari Kookal>which are like the similarity and
+whatever does it involve.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/283-0
+00:26:18.230 --> 00:26:19.470
+<v Srihari Kookal>Making a network request.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/284-0
+00:26:21.470 --> 00:26:22.790
+<v Srihari Kookal>Yeah, I would put it like that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/287-0
+00:26:24.590 --> 00:26:27.470
+<v Linus Armakola>Cool, but very interesting.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/285-0
+00:26:25.550 --> 00:26:25.990
+<v Srihari Kookal>Cool that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/286-0
+00:26:28.390 --> 00:26:28.670
+<v Srihari Kookal>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/288-0
+00:26:29.550 --> 00:26:30.470
+<v Linus Armakola>Sarosh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/290-0
+00:26:33.990 --> 00:26:40.850
+<v Sarosh Manzoor>So I was working on a series of signals
+actually, like Linus says,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/290-1
+00:26:40.850 --> 00:26:47.811
+<v Sarosh Manzoor>where we could compare different
+attributes of of products across 2</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/290-2
+00:26:47.811 --> 00:26:48.630
+<v Sarosh Manzoor>domains.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/292-0
+00:26:49.230 --> 00:26:54.388
+<v Sarosh Manzoor>So in this case,
+there is a limitation that the contract</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/292-1
+00:26:54.388 --> 00:27:00.994
+<v Sarosh Manzoor>actually has to have both domains
+considered that we want to compare on,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/292-2
+00:27:00.994 --> 00:27:04.070
+<v Sarosh Manzoor>but the results were kind of cool.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/293-0
+00:27:04.950 --> 00:27:10.233
+<v Sarosh Manzoor>So when I ran it this morning,
+firstly to specify what multiple signals</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/293-1
+00:27:10.233 --> 00:27:14.708
+<v Sarosh Manzoor>mean in this case as the cross domain
+offer name similarity,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/293-2
+00:27:14.708 --> 00:27:19.990
+<v Sarosh Manzoor>cross domain price consistency and cross
+domain vendor name similarity.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/294-0
+00:27:20.270 --> 00:27:26.070
+<v Sarosh Manzoor>I have not looked into the specifics of
+how each of these are working,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/294-1
+00:27:26.070 --> 00:27:29.828
+<v Sarosh Manzoor>but the cross domain offer name
+similarities,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/294-2
+00:27:29.828 --> 00:27:35.219
+<v Sarosh Manzoor>the one that pops out the most.
+I took a working DE contract from</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/294-3
+00:27:35.219 --> 00:27:38.977
+<v Sarosh Manzoor>Phillips.
+My shop made a replica where we can</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/294-4
+00:27:38.977 --> 00:27:39.630
+<v Sarosh Manzoor>monitor.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/295-0
+00:27:40.270 --> 00:27:44.600
+<v Sarosh Manzoor>Both Google DE and Idialo DE and it's
+it's weird.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/295-1
+00:27:44.600 --> 00:27:51.354
+<v Sarosh Manzoor>We set out to find Google mismatches,
+but actually what this thing showed was</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/295-2
+00:27:51.354 --> 00:27:56.030
+<v Sarosh Manzoor>that the messages on Idialo were wrong a
+lot of them.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/296-0
+00:27:56.270 --> 00:28:02.190
+<v Sarosh Manzoor>And that I traced back to this one
+product, I think it was a vacuum cleaner,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/296-1
+00:28:02.190 --> 00:28:08.648
+<v Sarosh Manzoor>which was one of the sponsored products,
+if I remember correctly, about a year ago,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/296-2
+00:28:08.648 --> 00:28:13.030
+<v Sarosh Manzoor>like when Idioto started sharing the
+sponsored products.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/297-0
+00:28:13.390 --> 00:28:19.726
+<v Sarosh Manzoor>This one would pop up often.
+So for the contract that I was looking at,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/297-1
+00:28:19.726 --> 00:28:26.414
+<v Sarosh Manzoor>there were a lot of details which were
+matched to this sponsored product on</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/297-2
+00:28:26.414 --> 00:28:30.110
+<v Sarosh Manzoor>EPRDE, so I had to clear them as well and.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/298-0
+00:28:30.710 --> 00:28:37.050
+<v Sarosh Manzoor>Then eventually I think there were about
+15 or so URLS on Google DE for this</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/298-1
+00:28:37.050 --> 00:28:42.895
+<v Sarosh Manzoor>contract that were mismatched.
+I ran the remove URL action on that and</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/298-2
+00:28:42.895 --> 00:28:49.070
+<v Sarosh Manzoor>then monitored the product again and now
+I only see one or two mismatches.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/299-0
+00:28:49.790 --> 00:28:56.322
+<v Sarosh Manzoor>It was actually nice to see.
+Maybe I can show this because it's just a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/299-1
+00:28:56.322 --> 00:29:01.382
+<v Sarosh Manzoor>bit satisfying.
+I'll just show my share my screen with</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/299-2
+00:29:01.382 --> 00:29:02.670
+<v Sarosh Manzoor>the dashboard.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/300-0
+00:29:03.030 --> 00:29:05.510
+<v Linus Armakola>Do you have a shrinking red bar?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/301-0
+00:29:05.550 --> 00:29:09.351
+<v Sarosh Manzoor>It's shrinking. Unfortunately, no.
+I I wish that was the case,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/301-1
+00:29:09.351 --> 00:29:12.790
+<v Sarosh Manzoor>but unfortunately no.
+So here and can you see my screen?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/302-0
+00:29:13.910 --> 00:29:14.310
+<v Linus Armakola>Yep.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/303-0
+00:29:14.150 --> 00:29:17.974
+<v Sarosh Manzoor>So here in this time frame I ran the
+signal twice.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/303-1
+00:29:17.974 --> 00:29:24.123
+<v Sarosh Manzoor>That's why you see about 5000 products.
+There's about 2000 products in the in the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/303-2
+00:29:24.123 --> 00:29:29.296
+<v Sarosh Manzoor>dashboard in this contract.
+If I filter only for this time frame you</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/303-3
+00:29:29.296 --> 00:29:33.270
+<v Sarosh Manzoor>will see I think there is about 15 or so
+mismatches.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/304-0
+00:29:33.630 --> 00:29:39.376
+<v Sarosh Manzoor>Looking at the names directly,
+just the upper name and the product names</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/304-1
+00:29:39.376 --> 00:29:45.751
+<v Sarosh Manzoor>alone, ignoring the other domain aside,
+there there are some obvious mismatches,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/304-2
+00:29:45.751 --> 00:29:49.292
+<v Sarosh Manzoor>yes,
+but there are also some which seem like</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/304-3
+00:29:49.292 --> 00:29:50.630
+<v Sarosh Manzoor>they are a match.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/305-0
+00:29:51.230 --> 00:29:54.830
+<v Sarosh Manzoor>Um, let me find an example.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/306-0
+00:29:55.910 --> 00:30:00.931
+<v Sarosh Manzoor>Uh, this one for example. Uh.
+So I guess this one would have been the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/306-1
+00:30:00.931 --> 00:30:06.525
+<v Sarosh Manzoor>case where Idialo uh offers where or
+Idialo match was wrong. Um. But anyways,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/306-2
+00:30:06.525 --> 00:30:08.390
+<v Sarosh Manzoor>after this I reran the um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/307-0
+00:30:09.830 --> 00:30:17.605
+<v Sarosh Manzoor>Replace URL and then refresh the contract
+a couple of times and then eventually I'm</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/307-1
+00:30:17.605 --> 00:30:23.621
+<v Sarosh Manzoor>only left with two mismatches,
+which it's a bit unclear and this</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/307-2
+00:30:23.621 --> 00:30:25.750
+<v Sarosh Manzoor>mismatches because the.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/309-0
+00:30:26.070 --> 00:30:30.471
+<v Sarosh Manzoor>Because the corresponding Edialo offers
+are not,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/309-1
+00:30:30.471 --> 00:30:37.567
+<v Sarosh Manzoor>but I'm looking at just a product name.
+I feel like it's actually actually all</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/309-2
+00:30:37.567 --> 00:30:40.710
+<v Sarosh Manzoor>right. I'm wondering if I can show.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/308-0
+00:30:41.430 --> 00:30:41.590
+<v Marius Faust>Right.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/310-0
+00:30:42.350 --> 00:30:45.361
+<v Sarosh Manzoor>Oh yeah,
+let me just look at the price monitor.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/310-1
+00:30:45.361 --> 00:30:50.567
+<v Sarosh Manzoor>So this is the result we are getting from.
+This is the offer we see on the yellow.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/310-2
+00:30:50.567 --> 00:30:54.080
+<v Sarosh Manzoor>I mean the naming is definitely not
+matching with that,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/310-3
+00:30:54.080 --> 00:30:58.470
+<v Sarosh Manzoor>but that's the result we get on the
+yellow at the site for this G 10.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/311-0
+00:30:59.230 --> 00:31:05.394
+<v Sarosh Manzoor>So there is definitely an aspect of the
+domain that we compare it to that has to</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/311-1
+00:31:05.394 --> 00:31:11.253
+<v Sarosh Manzoor>be very correct and reliable as well.
+But I'm happy with the results that we</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/311-2
+00:31:11.253 --> 00:31:16.580
+<v Sarosh Manzoor>were able to detect the matches,
+clear them up systematically without</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/311-3
+00:31:16.580 --> 00:31:18.710
+<v Sarosh Manzoor>having to run that manually.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/312-0
+00:31:18.830 --> 00:31:23.085
+<v Sarosh Manzoor>Then eventually seeing a higher number of
+matches overall.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/312-1
+00:31:23.085 --> 00:31:27.268
+<v Sarosh Manzoor>I think caveats it has already already
+started with that,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/312-2
+00:31:27.268 --> 00:31:32.677
+<v Sarosh Manzoor>that this means that if you want to
+evaluate the product with this signal,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/312-3
+00:31:32.677 --> 00:31:38.230
+<v Sarosh Manzoor>we have to make a copy where we are
+configuring both domains, re-running it.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/313-0
+00:31:38.430 --> 00:31:42.632
+<v Sarosh Manzoor>Which is a bit of an overhead,
+but if we are modifying the search</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/313-1
+00:31:42.632 --> 00:31:46.516
+<v Sarosh Manzoor>attempts under the hood,
+then this will naturally impact the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/313-2
+00:31:46.516 --> 00:31:51.737
+<v Sarosh Manzoor>additional contract as well once whatever
+corrective effort we make on the search</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/313-3
+00:31:51.737 --> 00:31:52.310
+<v Sarosh Manzoor>attempts.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/314-0
+00:31:53.550 --> 00:31:58.623
+<v Sarosh Manzoor>I'm unclear as to what we will do with
+this signal in the future,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/314-1
+00:31:58.623 --> 00:32:01.390
+<v Sarosh Manzoor>like how to proceed on this because.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/315-0
+00:32:03.550 --> 00:32:10.104
+<v Sarosh Manzoor>The scope can get really, really big,
+but maybe Linus will discuss this at some</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/315-1
+00:32:10.104 --> 00:32:14.118
+<v Sarosh Manzoor>point,
+like how to sort of make it incrementally</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/315-2
+00:32:14.118 --> 00:32:15.510
+<v Sarosh Manzoor>better over time.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/316-0
+00:32:17.750 --> 00:32:19.030
+<v Sarosh Manzoor>That is on.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/317-0
+00:32:17.790 --> 00:32:21.577
+<v Linus Armakola>No, the guy,
+I'm not very too much about the caveat</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/317-1
+00:32:21.577 --> 00:32:27.403
+<v Linus Armakola>with the contracts because that's just
+build the infrastructure for it and then</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/317-2
+00:32:27.403 --> 00:32:29.150
+<v Linus Armakola>just for that, but yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/318-0
+00:32:30.030 --> 00:32:33.350
+<v Linus Armakola>It's sad to see that Idialo is also not
+that great.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/321-0
+00:32:32.750 --> 00:32:36.670
+<v Sarosh Manzoor>I think it's was I did.
+We just got unlucky with the contract</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/321-1
+00:32:36.670 --> 00:32:41.602
+<v Sarosh Manzoor>that I chose. It's not too terrible.
+I would say compared to at least what we</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/319-0
+00:32:38.830 --> 00:32:39.990
+<v Linus Armakola>No, maybe.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/321-2
+00:32:41.602 --> 00:32:44.953
+<v Sarosh Manzoor>see on Google.
+And the good thing is that it's super</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/320-0
+00:32:43.830 --> 00:32:44.470
+<v Linus Armakola>No.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/321-3
+00:32:44.953 --> 00:32:50.137
+<v Sarosh Manzoor>simple to validate the matches on EDL or
+like you take that you didn't put in the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/321-4
+00:32:50.137 --> 00:32:52.350
+<v Sarosh Manzoor>yellow search bar and you see what.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/322-0
+00:32:52.430 --> 00:32:55.910
+<v Sarosh Manzoor>Whether this works or not and that really
+speeds up at least.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/323-0
+00:32:53.470 --> 00:32:57.830
+<v Linus Armakola>We can also reevaluate Idialo itself by
+doing the click through on Idialo.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/324-0
+00:33:01.630 --> 00:33:02.870
+<v Sarosh Manzoor>I didn't follow.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/325-0
+00:33:02.510 --> 00:33:05.950
+<v Linus Armakola>Also,
+we can confirm this by creating a ground</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/325-1
+00:33:05.950 --> 00:33:09.390
+<v Linus Armakola>true for Idialo with the click through
+signal.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/326-0
+00:33:11.630 --> 00:33:12.790
+<v Sarosh Manzoor>True. Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/328-0
+00:33:12.350 --> 00:33:15.630
+<v Linus Armakola>For the G10 matches that Srihari was
+working on.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/327-0
+00:33:13.990 --> 00:33:14.310
+<v Sarosh Manzoor>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/330-0
+00:33:17.470 --> 00:33:22.719
+<v Marius Faust>Just do best practice in statistical
+analysis. If the data is bad,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/330-1
+00:33:22.719 --> 00:33:26.950
+<v Marius Faust>it's just unlucky if the data is good
+report success.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/329-0
+00:33:28.070 --> 00:33:29.110
+<v Sarosh Manzoor>That's true.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/332-0
+00:33:32.430 --> 00:33:36.626
+<v Sarosh Manzoor>What is a performance when measured is
+accelerated?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/332-1
+00:33:36.626 --> 00:33:41.710
+<v Sarosh Manzoor>I guess is what you just said.
+I could also explain like that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/331-0
+00:33:41.390 --> 00:33:41.830
+<v Marius Faust>Yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/333-0
+00:33:44.590 --> 00:33:48.577
+<v Linus Armakola>Yeah,
+so please update your task with what you</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/333-1
+00:33:48.577 --> 00:33:52.310
+<v Linus Armakola>did and then I will run Claude over it
+and.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/334-0
+00:33:49.510 --> 00:33:52.350
+<v Marius Faust>Wow, so impolite.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/335-0
+00:33:52.590 --> 00:34:00.990
+<v Sarosh Manzoor>I have I linked the data loose notes
+document on the on the tasks.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/336-0
+00:34:00.550 --> 00:34:03.310
+<v Marius Faust>You don't want to hear about my task,
+Linus.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/337-0
+00:34:04.910 --> 00:34:06.870
+<v Sarosh Manzoor>Please go ahead.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/338-0
+00:34:05.390 --> 00:34:09.870
+<v Marius Faust>Or you just or was it directed at that he
+should update his task?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/340-0
+00:34:10.110 --> 00:34:13.797
+<v Linus Armakola>Didn't you already tell us what you did?
+No. Oh, OK. Sorry.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/339-0
+00:34:11.910 --> 00:34:12.630
+<v Marius Faust>No.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/340-1
+00:34:13.797 --> 00:34:17.790
+<v Linus Armakola>I thought that you went second,
+but then Srihari was second. Oh.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/342-0
+00:34:19.070 --> 00:34:23.990
+<v Sarosh Manzoor>I understood that that this comment was
+directed to me, that's why I answered so.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/341-0
+00:34:19.190 --> 00:34:19.670
+<v Marius Faust>So.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/343-0
+00:34:22.790 --> 00:34:26.870
+<v Linus Armakola>No, no,
+I I I thought that we're finally done.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/344-0
+00:34:23.710 --> 00:34:30.458
+<v Marius Faust>Yeah, yeah, you've got it. We're done.
+I noticed. No. So I keep it pretty simple.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/344-1
+00:34:30.458 --> 00:34:36.711
+<v Marius Faust>Basically what I did was enrich the
+product name with the with product tags</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/344-2
+00:34:36.711 --> 00:34:38.110
+<v Marius Faust>we have in there.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/345-0
+00:34:39.070 --> 00:34:44.384
+<v Marius Faust>I did it in a simple way.
+I just put all the tags to ChatGPT or to</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/345-1
+00:34:44.384 --> 00:34:50.253
+<v Marius Faust>Claude and tell him please just use the
+tags that seem useful for product</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/345-2
+00:34:50.253 --> 00:34:54.139
+<v Marius Faust>matching.
+And on the offer side I enriched every</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/345-3
+00:34:54.139 --> 00:34:57.470
+<v Marius Faust>offer with all the attributes we can find.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/346-0
+00:34:58.030 --> 00:35:04.403
+<v Marius Faust>For the offer so that we basically have a
+long string for the attribute for the</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/346-1
+00:35:04.403 --> 00:35:08.067
+<v Marius Faust>product,
+long string for the offer and then I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/346-2
+00:35:08.067 --> 00:35:14.360
+<v Marius Faust>pushed it to a GPT model and say ask it
+please tell me if it matches or don't,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/346-3
+00:35:14.360 --> 00:35:16.670
+<v Marius Faust>doesn't or if it's uncertain.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/347-0
+00:35:16.710 --> 00:35:20.790
+<v Marius Faust>And I also added a thing where it could
+reason why the decision was made.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/349-0
+00:35:23.270 --> 00:35:29.220
+<v Marius Faust>I just ran it on a really small sample
+size because I didn't know how to like I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/349-1
+00:35:29.220 --> 00:35:34.574
+<v Marius Faust>I would I would have to do manual
+investigation and so on large scale I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/349-2
+00:35:34.574 --> 00:35:38.590
+<v Marius Faust>didn't like see the the point of doing it
+versus the.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/350-0
+00:35:38.990 --> 00:35:45.246
+<v Marius Faust>Likely cost of doing it.
+So what's interesting is I did it for a</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/350-1
+00:35:45.246 --> 00:35:50.924
+<v Marius Faust>contract where we have mismatches,
+I guess 10% mismatches,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/350-2
+00:35:50.924 --> 00:35:54.870
+<v Marius Faust>20% uncertainty and the rest are matches.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/351-0
+00:35:55.190 --> 00:36:01.573
+<v Marius Faust>And what I noticed is that my approach
+had way less mismatches and way less</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/351-1
+00:36:01.573 --> 00:36:05.856
+<v Marius Faust>uncertainty.
+And when I checked the cases where my</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/351-2
+00:36:05.856 --> 00:36:12.070
+<v Marius Faust>signal differed from what we currently
+have, my signal was usually right.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/352-0
+00:36:12.670 --> 00:36:12.750
+<v Marius Faust>Um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/353-0
+00:36:15.830 --> 00:36:21.990
+<v Marius Faust>And then I checked the uncertain thing
+and I noticed that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/354-0
+00:36:23.830 --> 00:36:28.991
+<v Marius Faust>Like this also could have been could have
+been prevented because apparently I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/354-1
+00:36:28.991 --> 00:36:33.689
+<v Marius Faust>didn't look at it in detail,
+but apparently first token similarity was</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/354-2
+00:36:33.689 --> 00:36:38.453
+<v Marius Faust>calculated and then the check was only
+done for the offer with the best</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/354-3
+00:36:38.453 --> 00:36:41.628
+<v Marius Faust>similarity.
+So now my new approach is which I'm</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/354-4
+00:36:41.628 --> 00:36:43.150
+<v Marius Faust>currently implementing.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/355-0
+00:36:43.510 --> 00:36:48.319
+<v Marius Faust>Just tokenize every offer and make the
+list of tokens distinct.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/355-1
+00:36:48.319 --> 00:36:54.329
+<v Marius Faust>So we basically have all the tokens that
+appear in some offers and compare that</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/355-2
+00:36:54.329 --> 00:36:57.710
+<v Marius Faust>all against one product,
+one enrich product.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/356-0
+00:36:58.950 --> 00:37:03.390
+<v Marius Faust>And that should increase the.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/357-0
+00:37:04.990 --> 00:37:09.362
+<v Marius Faust>Yeah, the costs also,
+but also the precision.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/357-1
+00:37:09.362 --> 00:37:16.585
+<v Marius Faust>But when I looked at the reasoning,
+I noticed that most of the time the LLM</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/357-2
+00:37:16.585 --> 00:37:18.390
+<v Marius Faust>was actually doing.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/358-0
+00:37:19.670 --> 00:37:23.952
+<v Marius Faust>Like it noticed. OK,
+here in the product name we have this</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/358-1
+00:37:23.952 --> 00:37:28.814
+<v Marius Faust>certain article number and it appears
+somewhere in the offer name,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/358-2
+00:37:28.814 --> 00:37:33.095
+<v Marius Faust>so it's a match.
+So basically what what it did was it just</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/358-3
+00:37:33.095 --> 00:37:36.070
+<v Marius Faust>checked is this token existing also here.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/359-0
+00:37:36.550 --> 00:37:41.683
+<v Marius Faust>And then and this was I guess the part
+which the LLM is good for deciding OK,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/359-1
+00:37:41.683 --> 00:37:46.290
+<v Marius Faust>this is an important token.
+This should probably be also in the other</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/359-2
+00:37:46.290 --> 00:37:46.750
+<v Marius Faust>string.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/360-0
+00:37:48.470 --> 00:37:55.392
+<v Marius Faust>And this is also why I came to the
+conclusion that maybe we should have an</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/360-1
+00:37:55.392 --> 00:38:02.775
+<v Marius Faust>approach where we just check if tokens
+appear and have that basically for every</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/360-2
+00:38:02.775 --> 00:38:06.190
+<v Marius Faust>somewhat important token we know and.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/361-0
+00:38:07.550 --> 00:38:11.508
+<v Marius Faust>Then have weights,
+basically have the signal outputs that</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/361-1
+00:38:11.508 --> 00:38:14.578
+<v Marius Faust>just say yes,
+this token is appearing or no,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/361-2
+00:38:14.578 --> 00:38:17.990
+<v Marius Faust>it's not appearing and then based on that
+have a.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/362-0
+00:38:19.390 --> 00:38:22.990
+<v Marius Faust>Clever decider that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/363-0
+00:38:24.190 --> 00:38:27.344
+<v Marius Faust>Yeah,
+it's working for that contract or not,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/363-1
+00:38:27.344 --> 00:38:32.880
+<v Marius Faust>which is actually somewhat I I found it
+interesting because it's it's somewhat</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/363-2
+00:38:32.880 --> 00:38:38.697
+<v Marius Faust>similar to what Srihari and Ehsan came up
+with because what Linus and I draw up at</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/363-3
+00:38:38.697 --> 00:38:41.150
+<v Marius Faust>the dashboard was basically having.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/364-0
+00:38:42.190 --> 00:38:47.666
+<v Marius Faust>Signals for different attributes and
+names and article numbers,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/364-1
+00:38:47.666 --> 00:38:54.425
+<v Marius Faust>and then have all the signals feed into
+one somewhat clever algorithm that can</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/364-2
+00:38:54.425 --> 00:38:57.590
+<v Marius Faust>learn based on menu inputs and stats.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/365-0
+00:38:57.590 --> 00:39:03.407
+<v Marius Faust>And then also have a have the model
+adjusted so it passes the manual tests</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/365-1
+00:39:03.407 --> 00:39:07.208
+<v Marius Faust>and basically you have one set of
+configuration.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/365-2
+00:39:07.208 --> 00:39:12.870
+<v Marius Faust>If it's like a neural network then the
+the configuration is the weights.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/366-0
+00:39:13.430 --> 00:39:17.892
+<v Marius Faust>Per contract and yeah,
+basically do a little bit of machine</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/366-1
+00:39:17.892 --> 00:39:23.470
+<v Marius Faust>learning of that algorithm for each
+contract and see how far we get there.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/368-0
+00:39:29.750 --> 00:39:34.590
+<v Sarosh Manzoor>So you're suggesting having us training a
+separate model per contract?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/367-0
+00:39:30.310 --> 00:39:30.510
+<v Marius Faust>But.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/369-0
+00:39:35.430 --> 00:39:35.790
+<v Marius Faust>Yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/371-0
+00:39:37.350 --> 00:39:41.950
+<v Sarosh Manzoor>So that means we will need the training
+data also by.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/372-0
+00:39:43.270 --> 00:39:44.150
+<v Sarosh Manzoor>Per contract.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/373-0
+00:39:43.990 --> 00:39:44.590
+<v Marius Faust>Yes.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/374-0
+00:39:48.430 --> 00:39:52.310
+<v Sarosh Manzoor>Which means labeling data from every
+contract.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/376-0
+00:39:55.310 --> 00:39:59.300
+<v Marius Faust>Yes and no.
+So I'm no expert in the in that,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/375-0
+00:39:56.910 --> 00:39:57.230
+<v Sarosh Manzoor>Hmm.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/376-1
+00:39:59.300 --> 00:40:06.305
+<v Marius Faust>but the idea was that basically, yeah,
+we had a nice white whiteboard session.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/376-2
+00:40:06.305 --> 00:40:11.270
+<v Marius Faust>It was actually really nice.
+You should have been here.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/378-0
+00:40:12.430 --> 00:40:17.271
+<v Marius Faust>We like chilling in the meeting room with
+the nice sun coming in from the windows</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/377-0
+00:40:12.990 --> 00:40:13.230
+<v Linus Armakola>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/378-1
+00:40:17.271 --> 00:40:21.109
+<v Marius Faust>and just talking for two hours and
+scribbling on the whiteboard.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/380-0
+00:40:20.950 --> 00:40:25.016
+<v Linus Armakola>And and we decided that we need a
+somebody like we need some AI to listen</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/378-2
+00:40:21.109 --> 00:40:22.230
+<v Marius Faust>It was really nice.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/380-1
+00:40:25.016 --> 00:40:29.630
+<v Linus Armakola>to us and just record everything so that
+we don't need to do more notes afterwards.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/379-0
+00:40:31.550 --> 00:40:31.790
+<v Marius Faust>Yeah.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/382-0
+00:40:33.990 --> 00:40:39.369
+<v Marius Faust>Yes, so at the bottom you see the idea.
+In the left we have the inputs which</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/382-1
+00:40:39.369 --> 00:40:44.538
+<v Marius Faust>values between zero and one from the
+signals. Then there's the algo hole,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/382-2
+00:40:44.538 --> 00:40:48.030
+<v Marius Faust>which is short for algorithm that holds
+the data.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/383-0
+00:40:49.190 --> 00:40:53.906
+<v Marius Faust>And this is the thing that's actually
+adjusted.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/381-0
+00:40:49.750 --> 00:40:49.870
+<v Sarosh Manzoor>OK.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/383-1
+00:40:53.906 --> 00:41:01.373
+<v Marius Faust>It produces results for the inputs,
+and then there's an optimizer that gets</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/383-2
+00:41:01.373 --> 00:41:04.910
+<v Marius Faust>the ground truth from other sources.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/384-0
+00:41:05.350 --> 00:41:10.651
+<v Marius Faust>And optimizes the alcohol until it
+matches the ground truth.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/384-1
+00:41:10.651 --> 00:41:15.343
+<v Marius Faust>And for the ground truth we have like
+multiple ideas.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/384-2
+00:41:15.343 --> 00:41:20.470
+<v Marius Faust>You could for example have really high
+confidence signals.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/385-0
+00:41:20.470 --> 00:41:22.950
+<v Marius Faust>That are expensive to run, for example.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/386-0
+00:41:22.230 --> 00:41:24.510
+<v Linus Armakola>Like the cheetin signal.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/387-0
+00:41:25.230 --> 00:41:30.760
+<v Marius Faust>Yes, like one example is like like the 0.
+5% of finding G tins is like not good</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/387-1
+00:41:30.760 --> 00:41:34.354
+<v Marius Faust>because you're only able to label 0.
+5 of the data.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/387-2
+00:41:34.354 --> 00:41:39.468
+<v Marius Faust>But if like from a large contracts,
+let's say I don't know 100K contract,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/387-3
+00:41:39.468 --> 00:41:44.030
+<v Marius Faust>then suddenly we have 500 products which
+are very likely labeled.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/388-0
+00:41:44.470 --> 00:41:47.677
+<v Marius Faust>Correctly,
+then these can be used as ground truth.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/388-1
+00:41:47.677 --> 00:41:52.644
+<v Marius Faust>Then you have some manual labeling as
+well and maybe some errors that customer</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/388-2
+00:41:52.644 --> 00:41:57.675
+<v Marius Faust>reports and then maybe we have a ground
+truth of 100 or 1K samples and suddenly</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/388-3
+00:41:57.675 --> 00:42:01.070
+<v Marius Faust>like training the algo on that isn't too
+bad anymore.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/390-0
+00:42:02.390 --> 00:42:05.546
+<v Sarosh Manzoor>I'm not trying to poke holes in the in
+the concept.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/390-1
+00:42:05.546 --> 00:42:10.339
+<v Sarosh Manzoor>I'm just wondering like what what kind of
+model we would be using because that</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/389-0
+00:42:05.590 --> 00:42:07.390
+<v Marius Faust>No, it's fine.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/390-2
+00:42:10.339 --> 00:42:14.344
+<v Sarosh Manzoor>would come into play like.
+So for example something like logistic</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/390-3
+00:42:14.344 --> 00:42:19.259
+<v Sarosh Manzoor>regression as was talking about 1K might
+be enough but it might be enough but if</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/390-4
+00:42:19.259 --> 00:42:20.230
+<v Sarosh Manzoor>you go with the.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/391-0
+00:42:20.790 --> 00:42:25.764
+<v Sarosh Manzoor>Something like a neural network,
+then one case probably not a lot because</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/391-1
+00:42:25.764 --> 00:42:31.208
+<v Sarosh Manzoor>you'll probably split it up into testing
+and evaluation and training data. Yeah,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/391-2
+00:42:31.208 --> 00:42:34.435
+<v Sarosh Manzoor>as well.
+So just to keep that in mind that this</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/392-0
+00:42:32.790 --> 00:42:37.192
+<v Marius Faust>Yeah, yeah, no, no, I'm,
+I'm like the thing we we talked about.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/391-3
+00:42:34.435 --> 00:42:35.510
+<v Sarosh Manzoor>might be become.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/392-1
+00:42:37.192 --> 00:42:42.970
+<v Marius Faust>I only worked with large language models
+and a little bit with like smaller models.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/392-2
+00:42:42.970 --> 00:42:45.996
+<v Marius Faust>But you know,
+we could like have in theory,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/392-3
+00:42:45.996 --> 00:42:50.811
+<v Marius Faust>not that it's the best solution.
+I'm sure there will be other things,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/392-4
+00:42:50.811 --> 00:42:51.430
+<v Marius Faust>but have.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/393-0
+00:42:52.430 --> 00:42:55.453
+<v Marius Faust>Have like 11 intermediate layer.
+I don't know,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/393-1
+00:42:55.453 --> 00:43:00.213
+<v Marius Faust>you know input layer are the the signals
+output layer is yes or no and an</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/393-2
+00:43:00.213 --> 00:43:05.295
+<v Marius Faust>intermediate layer of I don't know 5 to
+10 nodes or something and suddenly you</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/393-3
+00:43:05.295 --> 00:43:09.862
+<v Marius Faust>have a neural network which is like
+really small and doesn't need much</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/393-4
+00:43:09.862 --> 00:43:11.470
+<v Marius Faust>training proper probably.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/394-0
+00:43:11.870 --> 00:43:11.950
+<v Marius Faust>Um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/395-0
+00:43:14.150 --> 00:43:17.750
+<v Marius Faust>I don't know if this is the best solution
+or if we can do something else but.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/396-0
+00:43:17.150 --> 00:43:24.790
+<v Sarosh Manzoor>And then you have the trade off of the
+accuracy. Um, I guess, but then if you um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/397-0
+00:43:26.190 --> 00:43:29.014
+<v Sarosh Manzoor>Depending on how big of a model you're
+aiming for,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/397-1
+00:43:29.014 --> 00:43:33.443
+<v Sarosh Manzoor>like what accuracy you're aiming for,
+you can just also have a case of logistic</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/397-2
+00:43:33.443 --> 00:43:35.989
+<v Sarosh Manzoor>regression,
+but with only a smaller number of</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/397-3
+00:43:35.989 --> 00:43:39.698
+<v Sarosh Manzoor>features I guess. But you're right,
+this is not a like a we're not</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/399-0
+00:43:37.750 --> 00:43:42.964
+<v Marius Faust>Yeah, yeah, yeah.
+We just like abstracted it to a point</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/397-4
+00:43:39.698 --> 00:43:40.750
+<v Sarosh Manzoor>solutionizing here.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/399-1
+00:43:42.964 --> 00:43:49.760
+<v Marius Faust>where we say we call it the algo.
+We don't know what it will be exactly,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/398-0
+00:43:46.790 --> 00:43:47.550
+<v Sarosh Manzoor>Alcohol.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/399-2
+00:43:49.760 --> 00:43:53.670
+<v Marius Faust>but we we basically know by this what the.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/400-0
+00:43:55.030 --> 00:43:59.167
+<v Marius Faust>What the constraints are, right?
+So we want the signals as input,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/400-1
+00:43:59.167 --> 00:44:03.992
+<v Marius Faust>we want match or no match as output,
+and we want it to be able to be trained</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/400-2
+00:44:03.992 --> 00:44:07.377
+<v Marius Faust>by, I don't know,
+500 samples or something like that.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/400-3
+00:44:07.377 --> 00:44:12.390
+<v Marius Faust>And with that we can maybe figure out
+what's the best solution to put in there.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/402-0
+00:44:13.510 --> 00:44:15.630
+<v Marius Faust>OK, Linus, you want to say something?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/401-0
+00:44:14.310 --> 00:44:14.910
+<v Sarosh Manzoor>That's good.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/403-0
+00:44:17.510 --> 00:44:21.485
+<v Linus Armakola>Actually, let me not say something,
+but just say that, uh,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/403-1
+00:44:21.485 --> 00:44:26.470
+<v Linus Armakola>I'm summarizing stuff and I think we
+should have a session about it once.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/405-0
+00:44:27.990 --> 00:44:31.191
+<v Linus Armakola>I don't know,
+like I don't even know the timeline for</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/405-1
+00:44:31.191 --> 00:44:36.111
+<v Linus Armakola>the future, but I wanted to say something.
+But let me just not say it because this</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/405-2
+00:44:36.111 --> 00:44:39.311
+<v Linus Armakola>is getting a very long discussion.
+So I'll stop here.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/404-0
+00:44:37.950 --> 00:44:38.230
+<v Marius Faust>No.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/405-3
+00:44:39.311 --> 00:44:43.579
+<v Linus Armakola>We can schedule or let maybe like the
+stuff is still on the whiteboard.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/405-4
+00:44:43.579 --> 00:44:46.780
+<v Linus Armakola>Maybe next week,
+Monday we all come to the office and</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/405-5
+00:44:46.780 --> 00:44:47.550
+<v Linus Armakola>drink coffee.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/406-0
+00:44:47.910 --> 00:44:52.350
+<v Linus Armakola>And talk about it. Maybe that's nice. Um.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/407-0
+00:44:54.270 --> 00:44:55.830
+<v Linus Armakola>But for next steps.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/408-0
+00:44:57.270 --> 00:45:02.910
+<v Linus Armakola>Um, because I also need to leave. Um,
+I would say we uh,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/408-1
+00:45:02.910 --> 00:45:06.670
+<v Linus Armakola>once we all updated our tasks, uh, we.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/409-0
+00:45:07.750 --> 00:45:13.085
+<v Linus Armakola>Stop working on signals for this week or
+maybe like we finish up the last things</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/409-1
+00:45:13.085 --> 00:45:16.048
+<v Linus Armakola>that we have to do in order to finish it
+up,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/409-2
+00:45:16.048 --> 00:45:21.449
+<v Linus Armakola>but then we finish it for this week and
+maybe next week in board prioritization I</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/409-3
+00:45:21.449 --> 00:45:26.190
+<v Linus Armakola>summarize the outcome and try to get a
+little bit of numbers on things.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/410-0
+00:45:26.230 --> 00:45:35.230
+<v Linus Armakola>And then we can decide where to spend our
+time on. How does that sound as a idea?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/411-0
+00:45:37.110 --> 00:45:40.287
+<v Marius Faust>I agree.
+The the main reason why I wanted to</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/411-1
+00:45:40.287 --> 00:45:45.722
+<v Marius Faust>briefly talk about it is because he had
+mentioned that he and Ehsan had like</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/412-0
+00:45:45.030 --> 00:45:48.648
+<v Linus Armakola>Yeah,
+I was smiling when they when they said,</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/411-2
+00:45:45.722 --> 00:45:46.710
+<v Marius Faust>similar ideas.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/414-0
+00:45:47.670 --> 00:45:51.686
+<v Marius Faust>Yeah, yeah.
+So just that we when we talk about this</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/412-1
+00:45:48.648 --> 00:45:49.670
+<v Linus Armakola>when he said.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/414-1
+00:45:51.686 --> 00:45:56.166
+<v Marius Faust>or summarise this,
+remember that we are not the only ones</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/414-2
+00:45:56.166 --> 00:45:57.710
+<v Marius Faust>with having an idea.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/415-0
+00:45:59.830 --> 00:46:02.830
+<v Linus Armakola>No. How do I stop the recording?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/416-0
+00:46:04.630 --> 00:46:07.230
+<v Srihari Kookal>We all jump out of the call, I guess.</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/418-0
+00:46:06.470 --> 00:46:09.790
+<v Marius Faust>You you want to be racist again or what?</v>
+
+59ad1c74-cd25-43ff-a965-0f21eeaa8982/417-0
+00:46:07.030 --> 00:46:08.790
+<v Linus Armakola>Oh no, here's a button.</v>
